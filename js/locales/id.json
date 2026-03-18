@@ -26,6 +26,6 @@
     "controlSeeker": { "name": "Pencari Kendali", "tagline": "Jika tidak bisa mengontrol, tidak bisa menghadapi", "description": "Kecemasanmu melonjak saat hal-hal terasa tidak pasti. Kamu butuh rencana, struktur, backup. Spontanitas terasa mengancam. Kamu membuat sistem rumit bukan karena suka organisasi, tapi karena kekacauan menakutkan. Keandalanmu adalah kekuatan supermu; kekakuanmu adalah sangkarmu.", "trait1": "Butuh rencana detail untuk segalanya", "trait2": "Tidak bisa mendelegasikan tanpa cemas", "trait3": "Rutinitas ketat sebagai mekanisme coping" }
   },
   "share": { "text": "Tipe kecemasanku adalah '{type}'! Apa punyamu?" },
-  "related": { "stressResponse": "Respons Stres", "stressCheck": "Cek Stres", "overthinkerTest": "Tes Overthinking", "hspTest": "Tes HSP", "burnoutTest": "Tes Burnout" },
+  "related": { "stressResponse": "Respons Stres", "stressCheck": "Cek Stres", "overthinkerTest": "Tes Overthinking", "hspTest": "Tes HSP", "burnoutTest": "Tes Burnout", "eqTest": "Tes EQ" },
   "game": { "back": "DopaBrain Beranda" }
 }

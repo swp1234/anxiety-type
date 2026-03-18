@@ -184,7 +184,8 @@
     "stressCheck": "压力检测",
     "overthinkerTest": "过度思考测试",
     "hspTest": "HSP测试",
-    "burnoutTest": "倦怠测试"
+    "burnoutTest": "倦怠测试",
+    "eqTest": "EQ测试"
   },
   "game": {
     "back": "DopaBrain 首页"

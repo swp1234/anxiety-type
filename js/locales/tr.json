@@ -26,6 +26,6 @@
     "controlSeeker": { "name": "Kontrol Arayicisi", "tagline": "Kontrol edemiyorsam, basa cikamam", "description": "Seyler belirsiz hissettirdiginde kayginiz firlar. Planlara, yapiyi, yedeklere ihtiyaciniz var. Kendilgindenlik tehditkar hissetttirir. Organizasyonu sevdiginiz icin degil, kaos korkutugu icin sistemler olusturursunuz.", "trait1": "Her sey icin detayli plan gerekir", "trait2": "Kaygi olmadan devredemez", "trait3": "Katı rutinler basa cikma mekanizmasi" }
   },
   "share": { "text": "Kaygi tipim '{type}'! Seninki ne?" },
-  "related": { "stressResponse": "Stres Tepkisi", "stressCheck": "Stres Kontrolu", "overthinkerTest": "Asiri Dusunme Testi", "hspTest": "HSP Testi", "burnoutTest": "Tukenmislik Testi" },
+  "related": { "stressResponse": "Stres Tepkisi", "stressCheck": "Stres Kontrolu", "overthinkerTest": "Asiri Dusunme Testi", "hspTest": "HSP Testi", "burnoutTest": "Tukenmislik Testi", "eqTest": "EQ Testi" },
   "game": { "back": "DopaBrain Ana Sayfa" }
 }

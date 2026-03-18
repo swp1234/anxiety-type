@@ -26,6 +26,6 @@
     "controlSeeker": { "name": "Chercheur de Controle", "tagline": "Si je ne peux pas controler, je ne peux pas gerer", "description": "Votre anxiete monte quand les choses semblent incertaines. Vous avez besoin de plans, de structure, de sauvegardes. La spontaneite semble menacante. Vous creez des systemes elabores non pas parce que vous aimez l'organisation, mais parce que le chaos est effrayant. Votre fiabilite est votre superpouvoir; votre rigidite est votre cage.", "trait1": "A besoin de plans detailles pour tout", "trait2": "Ne peut pas deleguer sans anxiete", "trait3": "Routines strictes comme mecanisme de defense" }
   },
   "share": { "text": "Mon type d'anxiete est '{type}'! Et le votre?" },
-  "related": { "stressResponse": "Reponse au Stress", "stressCheck": "Verification du Stress", "overthinkerTest": "Test du Penseur Excessif", "hspTest": "Test HSP", "burnoutTest": "Test de Burnout" },
+  "related": { "stressResponse": "Reponse au Stress", "stressCheck": "Verification du Stress", "overthinkerTest": "Test du Penseur Excessif", "hspTest": "Test HSP", "burnoutTest": "Test de Burnout", "eqTest": "Test QE" },
   "game": { "back": "DopaBrain Accueil" }
 }

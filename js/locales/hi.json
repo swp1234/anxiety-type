@@ -184,7 +184,8 @@
     "stressCheck": "तनाव जांच",
     "overthinkerTest": "अधिक सोचने वाला टेस्ट",
     "hspTest": "HSP टेस्ट",
-    "burnoutTest": "बर्नआउट टेस्ट"
+    "burnoutTest": "बर्नआउट टेस्ट",
+    "eqTest": "EQ टेस्ट"
   },
   "game": {
     "back": "DopaBrain होम"

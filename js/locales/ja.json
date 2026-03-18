@@ -184,7 +184,8 @@
     "stressCheck": "ストレスチェック",
     "overthinkerTest": "考えすぎ診断",
     "hspTest": "HSP診断",
-    "burnoutTest": "燃え尽き診断"
+    "burnoutTest": "燃え尽き診断",
+    "eqTest": "EQテスト"
   },
   "game": {
     "back": "DopaBrain ホーム"

@@ -26,6 +26,6 @@
     "controlSeeker": { "name": "Kontrollsucher", "tagline": "Wenn ich es nicht kontrollieren kann, kann ich es nicht bewaeltigen", "description": "Deine Angst steigt wenn Dinge unsicher scheinen. Du brauchst Plaene, Struktur, Backups. Spontanitaet fuehlt sich bedrohlich an. Du erschaffst Systeme nicht weil du Organisation liebst, sondern weil Chaos beaengstigend ist. Deine Zuverlaessigkeit ist deine Superkraft; deine Starre dein Kaefig.", "trait1": "Braucht detaillierte Plaene fuer alles", "trait2": "Kann nicht ohne Angst delegieren", "trait3": "Strenge Routinen als Bewaeltigungsmechanismus" }
   },
   "share": { "text": "Mein Angst-Typ ist '{type}'! Was ist deiner?" },
-  "related": { "stressResponse": "Stressreaktion", "stressCheck": "Stress-Check", "overthinkerTest": "Ueberdenker-Test", "hspTest": "HSP-Test", "burnoutTest": "Burnout-Test" },
+  "related": { "stressResponse": "Stressreaktion", "stressCheck": "Stress-Check", "overthinkerTest": "Ueberdenker-Test", "hspTest": "HSP-Test", "burnoutTest": "Burnout-Test", "eqTest": "EQ-Test" },
   "game": { "back": "DopaBrain Startseite" }
 }

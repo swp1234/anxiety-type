@@ -26,6 +26,6 @@
     "controlSeeker": { "name": "Controlador", "tagline": "Se nao posso controlar, nao posso lidar", "description": "Sua ansiedade dispara quando as coisas parecem incertas. Voce precisa de planos, estrutura e backups. Espontaneidade parece ameacadora. Voce cria sistemas elaborados nao porque ama organizacao, mas porque o caos e assustador. Sua confiabilidade e seu superpoder; sua rigidez e sua gaiola.", "trait1": "Precisa de planos detalhados para tudo", "trait2": "Nao consegue delegar sem ansiedade", "trait3": "Rotinas rigidas como mecanismo de enfrentamento" }
   },
   "share": { "text": "Meu tipo de ansiedade e '{type}'! Qual e o seu?" },
-  "related": { "stressResponse": "Resposta ao Estresse", "stressCheck": "Verificacao de Estresse", "overthinkerTest": "Teste do Pensador Excessivo", "hspTest": "Teste HSP", "burnoutTest": "Teste de Burnout" },
+  "related": { "stressResponse": "Resposta ao Estresse", "stressCheck": "Verificacao de Estresse", "overthinkerTest": "Teste do Pensador Excessivo", "hspTest": "Teste HSP", "burnoutTest": "Teste de Burnout", "eqTest": "Teste EQ" },
   "game": { "back": "DopaBrain Inicio" }
 }

@@ -184,7 +184,8 @@
     "stressCheck": "Проверка стресса",
     "overthinkerTest": "Тест на чрезмерные мысли",
     "hspTest": "Тест HSP",
-    "burnoutTest": "Тест на выгорание"
+    "burnoutTest": "Тест на выгорание",
+    "eqTest": "Тест EQ"
   },
   "game": {
     "back": "DopaBrain Главная"

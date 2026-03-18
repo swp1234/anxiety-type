@@ -135,6 +135,6 @@
     "controlSeeker": { "name": "Buscador de Control", "tagline": "Si no puedo controlarlo, no puedo manejarlo", "description": "Tu ansiedad se dispara cuando las cosas se sienten inciertas. Necesitas planes, estructura y respaldos. La espontaneidad se siente amenazante. Creas sistemas elaborados no porque ames la organizacion, sino porque el caos es aterrador. Tu confiabilidad es tu superpoder; tu rigidez es tu jaula.", "trait1": "Necesita planes detallados para todo", "trait2": "No puede delegar sin ansiedad", "trait3": "Rutinas rigidas como mecanismo de afrontamiento" }
   },
   "share": { "text": "Mi tipo de ansiedad es '{type}'! Cual es el tuyo?" },
-  "related": { "stressResponse": "Respuesta al estres", "stressCheck": "Chequeo de estres", "overthinkerTest": "Test de pensador excesivo", "hspTest": "Test HSP", "burnoutTest": "Test de agotamiento" },
+  "related": { "stressResponse": "Respuesta al estres", "stressCheck": "Chequeo de estres", "overthinkerTest": "Test de pensador excesivo", "hspTest": "Test HSP", "burnoutTest": "Test de agotamiento", "eqTest": "Test EQ" },
   "game": { "back": "DopaBrain Inicio" }
 }

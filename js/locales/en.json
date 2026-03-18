@@ -184,7 +184,8 @@
     "stressCheck": "Stress Check",
     "overthinkerTest": "Overthinker Test",
     "hspTest": "HSP Test",
-    "burnoutTest": "Burnout Test"
+    "burnoutTest": "Burnout Test",
+    "eqTest": "EQ Test"
   },
   "game": {
     "back": "DopaBrain Home"
