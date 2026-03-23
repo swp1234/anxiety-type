@@ -198,6 +198,7 @@ class AnxietyTypeApp {
         }
 
         // Share buttons
+        document.getElementById('save-result')?.addEventListener('click', () => this.downloadResultCard());
         document.getElementById('share-kakao')?.addEventListener('click', () => this.shareKakao());
         document.getElementById('share-twitter')?.addEventListener('click', () => this.shareTwitter());
         document.getElementById('share-facebook')?.addEventListener('click', () => this.shareFacebook());
@@ -561,6 +562,26 @@ class AnxietyTypeApp {
     restart() {
         this.showScreen('intro-screen');
         window.scrollTo(0, 0);
+    }
+
+    downloadResultCard() {
+        if (!this.resultType || typeof ResultCard === 'undefined') return;
+        const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
+        const dims = this.getNormalizedDimensions();
+        const dimensionLabels = ['Cognitive', 'Physical', 'Social', 'Anticipatory', 'Control'];
+        const dimensions = dimensionLabels.map((label, idx) => ({
+            label: label,
+            pct: dims[idx],
+            color: this.resultType.color
+        }));
+        ResultCard.download({
+            appName: 'Anxiety Type Test',
+            typeName: t(this.resultType.nameKey),
+            typeEmoji: this.resultType.emoji,
+            dimensions: dimensions,
+            primaryColor: '#10b981',
+            tagline: 'dopabrain.com/anxiety-type'
+        });
     }
 
     // Share functions
