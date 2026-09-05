@@ -32,23 +32,15 @@
 
 [data-theme="light"] .option-btn { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.12); color: var(--text-primary); }
 [data-theme="light"] .option-btn:hover { background: rgba(16,185,129,0.06); border-color: rgba(16,185,129,0.3); }
-[data-theme="light"] .anxiety-metrics,
-[data-theme="light"] .radar-section,
 [data-theme="light"] .result-description,
-[data-theme="light"] .key-traits,
 [data-theme="light"] .share-section,
 [data-theme="light"] .related-tests { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); }
-[data-theme="light"] .metric-bar-bg { background: rgba(0,0,0,0.06); }
-[data-theme="light"] .trait-tag { background: rgba(16,185,129,0.08); border-color: rgba(16,185,129,0.2); }
 [data-theme="light"] .share-btn { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.1); }
 [data-theme="light"] .lang-menu { background: rgba(245,245,250,0.98); border-color: rgba(0,0,0,0.1); box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
 [data-theme="light"] .lang-option:hover { background: rgba(16,185,129,0.06); }
 [data-theme="light"] .app-loader { background: #f0f2f8; }
-[data-theme="light"] .ad-container { background: rgba(0,0,0,0.02); }
 [data-theme="light"] .related-card { background: rgba(0,0,0,0.02); border-color: rgba(0,0,0,0.1); }
-[data-theme="light"] .percentile-stat { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); }
 [data-theme="light"] .carousel-card { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.1); }
-[data-theme="light"] .social-proof { background: rgba(0,0,0,0.03); border-color: rgba(0,0,0,0.08); }
 
 /* === Reset === */
 *, *::before, *::after {
@@ -238,15 +230,6 @@ body {
 .lang-option:hover { background: rgba(16,185,129,0.1); }
 .lang-option.active { background: rgba(16,185,129,0.15); font-weight: 600; }
 
-/* === Ad Container === */
-.ad-container {
-    margin: 12px 0;
-    min-height: 50px;
-    background: rgba(255,255,255,0.02);
-    border-radius: 8px;
-    overflow: hidden;
-}
-
 /* === Screens === */
 .screen {
     display: none;
@@ -306,29 +289,6 @@ body {
     font-size: 16px;
     color: var(--text-secondary);
     margin-bottom: 20px;
-}
-
-/* Social proof */
-.social-proof {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 20px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 20px;
-    margin-bottom: 24px;
-}
-
-.proof-count {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--primary-color);
-}
-
-.proof-text {
-    font-size: 13px;
-    color: var(--text-secondary);
 }
 
 /* Result carousel */
@@ -456,6 +416,8 @@ body {
     color: var(--text-secondary);
     margin-top: 12px;
 }
+
+.boundary-note { max-width: 390px; margin: 18px auto 0; color: var(--text-secondary); font-size: 13px; line-height: 1.6; }
 
 /* === QUESTION SCREEN === */
 .question-header {
@@ -723,81 +685,6 @@ body {
     font-style: italic;
 }
 
-/* Metrics */
-.anxiety-metrics {
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.anxiety-metrics h3 {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--text-primary);
-}
-
-.metrics-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.metric-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.metric-label {
-    font-size: 13px;
-    color: var(--text-secondary);
-    width: 120px;
-    flex-shrink: 0;
-}
-
-.metric-bar-bg {
-    flex: 1;
-    height: 8px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.metric-bar-fill {
-    height: 100%;
-    border-radius: 4px;
-    transition: width 1s ease;
-    width: 0%;
-}
-
-.metric-value {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--primary-color);
-    width: 36px;
-    text-align: right;
-    flex-shrink: 0;
-}
-
-/* Percentile */
-.percentile-stat {
-    text-align: center;
-    padding: 14px 20px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 12px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    color: var(--text-secondary);
-}
-
-.percentile-stat strong {
-    color: var(--primary-color);
-}
-
 /* Description */
 .result-description {
     background: var(--glass-bg);
@@ -809,37 +696,8 @@ body {
     line-height: 1.7;
     color: var(--text-secondary);
 }
-
-/* Key Traits */
-.key-traits {
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
-    border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.key-traits h3 {
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 12px;
-}
-
-.traits-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-}
-
-.trait-tag {
-    padding: 8px 14px;
-    background: rgba(16,185,129,0.1);
-    border: 1px solid rgba(16,185,129,0.2);
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--primary-color);
-}
+.result-description p + p { margin-top: 12px; }
+.primary-next { display: block; width: 100%; margin: 18px 0 20px; text-decoration: none; }
 
 /* Related Tests */
 .related-tests {
@@ -902,7 +760,7 @@ body {
 
 .share-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
@@ -920,18 +778,8 @@ body {
 }
 
 .share-btn:hover { transform: translateY(-1px); }
-.share-btn.kakao { border-color: rgba(254,229,0,0.3); }
-.share-btn.kakao:hover { background: rgba(254,229,0,0.1); }
-.share-btn.twitter { border-color: rgba(29,161,242,0.3); }
-.share-btn.twitter:hover { background: rgba(29,161,242,0.1); }
-.share-btn.facebook { border-color: rgba(24,119,242,0.3); }
-.share-btn.facebook:hover { background: rgba(24,119,242,0.1); }
 .share-btn.copy { border-color: rgba(16,185,129,0.3); }
 .share-btn.copy:hover { background: rgba(16,185,129,0.1); }
-
-.radar-section { background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 16px; padding: 20px; margin-bottom: 20px; text-align: center; }
-.radar-section h3 { font-size: 15px; font-weight: 700; margin-bottom: 16px; }
-#radar-canvas { max-width: 100%; height: auto; }
 
 .pulse-ring { animation: pulseExpand 3s ease-out infinite; }
 .pr2 { animation-delay: 1.5s; }

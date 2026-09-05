@@ -1,31 +1,144 @@
 {
-  "app": { "title": "Tes Tipe Kecemasan", "loading": "Memuat...", "skipLink": "Langsung ke konten" },
-  "meta": { "description": "Apa tipe kecemasanmu? Overthinking, Perfeksionis, Cemas Sosial, Alarm Tubuh, Takut Masa Depan, atau Pencari Kendali? 8 pertanyaan mengungkap polamu!", "keywords": "tes tipe kecemasan, kuis kecemasan, tes psikologi, kesehatan mental", "og_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu?", "og_description": "8 pertanyaan mengungkap pola kecemasan utamamu!", "twitter_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu?", "twitter_description": "8 pertanyaan mengungkap pola kecemasan utamamu!", "page_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu? | DopaBrain" },
-  "intro": { "title": "Tes Tipe Kecemasan", "subtitle": "Tipe Khawatir Apa Kamu?", "social_proof": "orang telah diuji", "feature_types": "6 tipe kecemasan", "feature_questions": "8 skenario", "feature_metrics": "5 dimensi kecemasan", "time_estimate": "Sekitar 1 menit" },
-  "carousel": { "overthinker": "Overthinking", "perfectionist": "Perfeksionis", "socialWorrier": "Cemas Sosial", "bodyAlarm": "Alarm Tubuh", "futureDreader": "Takut Masa Depan", "controlSeeker": "Pencari Kendali" },
-  "button": { "start": "Temukan Tipe Kecemasanmu", "retry": "Coba Lagi", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Salin Tautan" },
+  "meta": {
+    "page_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu? | DopaBrain",
+    "description": "Bandingkan respons kekhawatiran yang paling sering Anda pilih dalam delapan situasi sehari-hari. Refleksi pribadi buatan penulis, bukan diagnosis.",
+    "og_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu?",
+    "og_description": "Refleksi delapan situasi tentang enam respons kekhawatiran.",
+    "twitter_title": "Tes Tipe Kecemasan - Tipe Khawatir Apa Kamu?",
+    "twitter_description": "Refleksi delapan situasi tentang enam respons kekhawatiran."
+  },
+  "app": {
+    "title": "Tes Tipe Kecemasan",
+    "loading": "Memuat...",
+    "skipLink": "Langsung ke konten"
+  },
+  "intro": {
+    "title": "Tes Tipe Kecemasan",
+    "subtitle": "Tipe Khawatir Apa Kamu?",
+    "feature_types": "6 tipe kecemasan",
+    "feature_questions": "8 skenario",
+    "feature_private": "Pribadi sejak awal",
+    "time_estimate": "Sekitar 1 menit",
+    "boundary": "Aktivitas buatan penulis ini untuk refleksi pribadi. Ini tidak mendiagnosis kecemasan atau kondisi kesehatan apa pun."
+  },
+  "carousel": {
+    "overthinker": "Overthinking",
+    "perfectionist": "Perfeksionis",
+    "socialWorrier": "Cemas Sosial",
+    "bodyAlarm": "Alarm Tubuh",
+    "futureDreader": "Takut Masa Depan",
+    "controlSeeker": "Pencari Kendali"
+  },
+  "button": {
+    "start": "Temukan Tipe Kecemasanmu",
+    "retry": "Coba Lagi",
+    "next_action": "Buat rencana stres pribadi 3 langkah",
+    "share": "Bagikan aktivitas ini"
+  },
   "question": {
-    "0": "Saat ada acara penting besok, kamu...", "0a": "Terjaga memutar setiap skenario yang mungkin berulang kali di kepala", "0b": "Mempersiapkan secara obsesif dan memeriksa ulang segalanya sampai sempurna", "0c": "Khawatir tentang apa yang orang pikirkan tentangmu", "0d": "Jantung berdebar, perut mual, tidak bisa rileks secara fisik", "0e": "Membayangkan semua yang bisa salah dan tenggelam dalam ketakutan", "0f": "Membuat checklist detail dan rencana cadangan untuk setiap kemungkinan",
-    "1": "Kamu mengirim pesan tapi belum dibalas berjam-jam, kamu...", "1a": "Membaca ulang pesanmu 50 kali menganalisis apa yang salah", "1b": "Menyesal tidak menulis lebih sempurna", "1c": "Meyakinkan diri bahwa mereka marah padamu", "1d": "Perut terasa simpul dan mengecek ponsel terus-menerus", "1e": "Mengasumsikan yang terburuk — mereka membencimu", "1f": "Merasa tidak nyaman karena situasi di luar kendali",
-    "2": "Bosmu bilang 'Bisa bicara?' tanpa konteks, kamu...", "2a": "Meninjau mental setiap tugas yang sudah dikerjakan, mencari kesalahan", "2b": "Langsung khawatir performamu tidak cukup baik", "2c": "Panik karena ditunjuk sendiri dan apa yang rekan kerja pikirkan", "2d": "Langsung merasa dada sesak dan telapak tangan berkeringat", "2e": "Langsung berpikir 'Aku dipecat' dan mulai katastrofisasi", "2f": "Frustrasi karena tidak diberi konteks untuk persiapan",
-    "3": "Kamu akan presentasi, kamu...", "3a": "Tidak bisa berhenti memikirkan setiap pertanyaan yang mungkin ditanyakan", "3b": "Merevisi slide untuk ke-20 kalinya karena tidak ada yang cukup bagus", "3c": "Takut dihakimi dan ingin menghilang", "3d": "Pusing, mual, dan tangan gemetar", "3e": "Takut semua yang bisa salah selama presentasi", "3f": "Perlu mengontrol setiap detail teknis dan pengaturan tempat duduk",
-    "4": "Kamu merasakan sakit yang tidak bisa dijelaskan di tubuh, kamu...", "4a": "Menghabiskan berjam-jam mencari gejala dan membaca artikel medis", "4b": "Khawatir tidak merawat diri dengan baik", "4c": "Tidak memberitahu siapapun karena tidak ingin terlihat berlebihan", "4d": "Langsung panik — jantung berdebar, napas cepat", "4e": "Membayangkan diagnosis terburuk dan mempersiapkan hasil yang mengerikan", "4f": "Langsung membuat janji dokter untuk mendapat jawaban",
-    "5": "Rencana tiba-tiba berubah di menit terakhir, kamu...", "5a": "Terjebak di kepala mencoba memproses rencana baru", "5b": "Frustrasi karena rencana awal lebih terorganisir", "5c": "Khawatir bagaimana kamu akan cocok di situasi baru", "5d": "Merasa tidak nyaman secara fisik — otot tegang, perut tidak enak", "5e": "Langsung khawatir apa lagi yang bisa salah hari ini", "5f": "Merasa sangat gelisah tanpa rencana yang jelas",
-    "6": "Kamu membuat kesalahan kecil di tempat kerja, kamu...", "6a": "Memutar ulang di pikiran berhari-hari, menganalisis apa yang seharusnya dilakukan", "6b": "Menyalahkan diri karena seharusnya menangkapnya sebelum terjadi", "6c": "Khawatir semua orang menyadari dan sekarang berpikir buruk tentangmu", "6d": "Merasa gelombang panas, perut jatuh, respons malu fisik", "6e": "Katastrofisasi bahwa kesalahan ini akan membesar jadi masalah lebih besar", "6f": "Langsung membuat sistem untuk memastikan tidak pernah terjadi lagi",
-    "7": "Kamu berbaring di tempat tidur mencoba tidur, kamu...", "7a": "Pikiranmu berlari melalui semua yang terjadi hari ini dan tugas besok", "7b": "Meninjau apakah melakukan segalanya dengan cukup baik", "7c": "Memutar ulang interaksi sosial dan khawatir bagaimana orang melihatmu", "7d": "Gelisah — tubuh tegang, tidak menemukan posisi nyaman", "7e": "Khawatir tentang masa depan dan merasakan ketakutan samar", "7f": "Merencanakan besok per menit karena ketidakpastian membuatmu terjaga"
+    "0": "Saat ada acara penting besok, kamu...",
+    "1": "Kamu mengirim pesan tapi belum dibalas berjam-jam, kamu...",
+    "2": "Bosmu bilang 'Bisa bicara?' tanpa konteks, kamu...",
+    "3": "Kamu akan presentasi, kamu...",
+    "4": "Kamu merasakan sakit yang tidak bisa dijelaskan di tubuh, kamu...",
+    "5": "Rencana tiba-tiba berubah di menit terakhir, kamu...",
+    "6": "Kamu membuat kesalahan kecil di tempat kerja, kamu...",
+    "7": "Kamu berbaring di tempat tidur mencoba tidur, kamu...",
+    "0a": "Terjaga memutar setiap skenario yang mungkin berulang kali di kepala",
+    "0b": "Mempersiapkan secara obsesif dan memeriksa ulang segalanya sampai sempurna",
+    "0c": "Khawatir tentang apa yang orang pikirkan tentangmu",
+    "0d": "Jantung berdebar, perut mual, tidak bisa rileks secara fisik",
+    "0e": "Membayangkan semua yang bisa salah dan tenggelam dalam ketakutan",
+    "0f": "Membuat checklist detail dan rencana cadangan untuk setiap kemungkinan",
+    "1a": "Membaca ulang pesanmu 50 kali menganalisis apa yang salah",
+    "1b": "Menyesal tidak menulis lebih sempurna",
+    "1c": "Meyakinkan diri bahwa mereka marah padamu",
+    "1d": "Perut terasa simpul dan mengecek ponsel terus-menerus",
+    "1e": "Mengasumsikan yang terburuk — mereka membencimu",
+    "1f": "Merasa tidak nyaman karena situasi di luar kendali",
+    "2a": "Meninjau mental setiap tugas yang sudah dikerjakan, mencari kesalahan",
+    "2b": "Langsung khawatir performamu tidak cukup baik",
+    "2c": "Panik karena ditunjuk sendiri dan apa yang rekan kerja pikirkan",
+    "2d": "Langsung merasa dada sesak dan telapak tangan berkeringat",
+    "2e": "Langsung berpikir 'Aku dipecat' dan mulai katastrofisasi",
+    "2f": "Frustrasi karena tidak diberi konteks untuk persiapan",
+    "3a": "Tidak bisa berhenti memikirkan setiap pertanyaan yang mungkin ditanyakan",
+    "3b": "Merevisi slide untuk ke-20 kalinya karena tidak ada yang cukup bagus",
+    "3c": "Takut dihakimi dan ingin menghilang",
+    "3d": "Pusing, mual, dan tangan gemetar",
+    "3e": "Takut semua yang bisa salah selama presentasi",
+    "3f": "Perlu mengontrol setiap detail teknis dan pengaturan tempat duduk",
+    "4a": "Menghabiskan berjam-jam mencari gejala dan membaca artikel medis",
+    "4b": "Khawatir tidak merawat diri dengan baik",
+    "4c": "Tidak memberitahu siapapun karena tidak ingin terlihat berlebihan",
+    "4d": "Langsung panik — jantung berdebar, napas cepat",
+    "4e": "Membayangkan diagnosis terburuk dan mempersiapkan hasil yang mengerikan",
+    "4f": "Langsung membuat janji dokter untuk mendapat jawaban",
+    "5a": "Terjebak di kepala mencoba memproses rencana baru",
+    "5b": "Frustrasi karena rencana awal lebih terorganisir",
+    "5c": "Khawatir bagaimana kamu akan cocok di situasi baru",
+    "5d": "Merasa tidak nyaman secara fisik — otot tegang, perut tidak enak",
+    "5e": "Langsung khawatir apa lagi yang bisa salah hari ini",
+    "5f": "Merasa sangat gelisah tanpa rencana yang jelas",
+    "6a": "Memutar ulang di pikiran berhari-hari, menganalisis apa yang seharusnya dilakukan",
+    "6b": "Menyalahkan diri karena seharusnya menangkapnya sebelum terjadi",
+    "6c": "Khawatir semua orang menyadari dan sekarang berpikir buruk tentangmu",
+    "6d": "Merasa gelombang panas, perut jatuh, respons malu fisik",
+    "6e": "Katastrofisasi bahwa kesalahan ini akan membesar jadi masalah lebih besar",
+    "6f": "Langsung membuat sistem untuk memastikan tidak pernah terjadi lagi",
+    "7a": "Pikiranmu berlari melalui semua yang terjadi hari ini dan tugas besok",
+    "7b": "Meninjau apakah melakukan segalanya dengan cukup baik",
+    "7c": "Memutar ulang interaksi sosial dan khawatir bagaimana orang melihatmu",
+    "7d": "Gelisah — tubuh tegang, tidak menemukan posisi nyaman",
+    "7e": "Khawatir tentang masa depan dan merasakan ketakutan samar",
+    "7f": "Merencanakan besok per menit karena ketidakpastian membuatmu terjaga"
   },
-  "analyzing": { "title": "Menganalisis pola kecemasanmu...", "scanning": "Memindai respons kecemasan...", "matching": "Mencocokkan dengan tipe kecemasan...", "comparing": "Membandingkan pola perilaku...", "complete": "Analisis selesai!" },
-  "result": { "your_type": "Tipe Kecemasanmu", "anxiety_dimensions": "Dimensi Kecemasan", "anxiety_metrics": "Skor Dimensi", "key_traits": "Pola Utama", "moreTests": "Jelajahi Lebih", "share": "Bagikan Hasilmu", "percentile": "Hanya {pct} dari semua peserta bertipe {type}" },
-  "metric": { "cognitive": "Kognitif", "physical": "Fisik", "social": "Sosial", "anticipatory": "Antisipatif", "control": "Kontrol" },
+  "analyzing": {
+    "title": "Menyiapkan ringkasan Anda?",
+    "scanning": "Membandingkan delapan pilihan Anda?"
+  },
+  "result": {
+    "your_type": "Respons kekhawatiran yang paling sering dipilih",
+    "boundary": "Ringkasan ini hanya menghitung pilihan Anda di sini. Ini bukan diagnosis atau penilaian tervalidasi dan bukan bukti respons Anda di setiap situasi.",
+    "calculation": "Cara kerja: setiap jawaban menambah satu poin pada label respons. Label terbanyak ditampilkan; jika seri, label pertama yang cocok digunakan.",
+    "moreTests": "Jelajahi Lebih",
+    "share": "Bagikan Hasilmu"
+  },
   "type": {
-    "overthinker": { "name": "Overthinking", "tagline": "Pikiran berlomba, pengulangan tanpa akhir, lumpuh analisis", "description": "Kecemasanmu hidup di kepalamu. Pikiranmu menjadi kereta tak terkendali dari pikiran dan 'bagaimana jika'. Kamu menganalisis percakapan tiga minggu lalu, menulis ulang email di kepala jam 2 pagi. Kedalaman berpikir adalah bakatmu; saklar yang tidak mati adalah bebanmu.", "trait1": "Mengulang percakapan tanpa akhir", "trait2": "Lumpuh analisis saat mengambil keputusan", "trait3": "Pikiran tidak tenang di malam hari" },
-    "perfectionist": { "name": "Perfeksionis", "tagline": "Tidak ada yang cukup bagus, termasuk dirimu sendiri", "description": "Kecemasanmu didorong standar yang tidak mungkin tinggi. Setiap tugas harus sempurna. Kamu merevisi dan mengerjakan ulang bukan karena mau, tapi karena kecemasan 'tidak cukup bagus' tak tertahankan. Menunda bukan malas — itu ketakutan memulai sesuatu yang tidak bisa kamu kerjakan sempurna.", "trait1": "Merevisi pekerjaan secara obsesif", "trait2": "Menunda karena takut ketidaksempurnaan", "trait3": "Menetapkan standar yang tidak mungkin" },
-    "socialWorrier": { "name": "Cemas Sosial", "tagline": "Semua orang menonton, semua orang menghakimi", "description": "Bagimu, orang lain adalah sumber dan penonton kecemasanmu. Kamu masuk ruangan dan langsung memindai tanda-tanda penilaian. Kamu memutar ulang interaksi sosial. Empatimu dalam; kesadaran dirimu juga dalam.", "trait1": "Memutar ulang interaksi sosial", "trait2": "Menghindari jadi pusat perhatian", "trait3": "Membaca berlebihan reaksi orang lain" },
-    "bodyAlarm": { "name": "Alarm Tubuh", "tagline": "Tubuhmu berbunyi alarm sebelum pikiran menyadari", "description": "Saat orang lain memikirkan jalannya ke kecemasan, tubuhmu sampai duluan. Jantung berdebar, dada sesak, mual, pusing, tangan gemetar — sistem sarafmu membunyikan alarm sebelum otak mengenali ancaman. Gejala fisik bisa meningkat jadi serangan panik atau ketegangan konstan.", "trait1": "Gejala fisik datang duluan", "trait2": "Rentan sensasi panik", "trait3": "Tubuh tetap tegang bahkan saat tenang" },
-    "futureDreader": { "name": "Takut Masa Depan", "tagline": "Bagaimana jika semuanya salah? Mungkin memang.", "description": "Kecemasanmu bukan tentang sekarang — tapi tentang yang belum terjadi. Kamu hidup di masa depan yang selalu mengancam. Kamu katastrofisasi, membayangkan skenario terburuk dengan detail vivid. Batuk jadi kanker, rapat jadi pemecatan. Ironinya, momen sekarang biasanya baik-baik saja — tapi kamu jarang ada di sana.", "trait1": "Katastrofisasi skenario terburuk", "trait2": "Hidup di masa depan, bukan sekarang", "trait3": "Terus-menerus takut yang tidak diketahui" },
-    "controlSeeker": { "name": "Pencari Kendali", "tagline": "Jika tidak bisa mengontrol, tidak bisa menghadapi", "description": "Kecemasanmu melonjak saat hal-hal terasa tidak pasti. Kamu butuh rencana, struktur, backup. Spontanitas terasa mengancam. Kamu membuat sistem rumit bukan karena suka organisasi, tapi karena kekacauan menakutkan. Keandalanmu adalah kekuatan supermu; kekakuanmu adalah sangkarmu.", "trait1": "Butuh rencana detail untuk segalanya", "trait2": "Tidak bisa mendelegasikan tanpa cemas", "trait3": "Rutinitas ketat sebagai mekanisme coping" }
+    "overthinker": {
+      "name": "Overthinking",
+      "tagline": "Anda paling sering memilih berpikir berulang kali"
+    },
+    "perfectionist": {
+      "name": "Perfeksionis",
+      "tagline": "Anda paling sering memilih melakukan semuanya dengan tepat"
+    },
+    "socialWorrier": {
+      "name": "Cemas Sosial",
+      "tagline": "Anda paling sering mengkhawatirkan penilaian orang lain"
+    },
+    "bodyAlarm": {
+      "name": "Alarm Tubuh",
+      "tagline": "Anda paling sering memperhatikan sinyal tubuh"
+    },
+    "futureDreader": {
+      "name": "Takut Masa Depan",
+      "tagline": "Anda paling sering mengkhawatirkan apa yang akan datang"
+    },
+    "controlSeeker": {
+      "name": "Pencari Kendali",
+      "tagline": "Anda paling sering mencari kepastian"
+    }
   },
-  "share": { "text": "Tipe kecemasanku adalah '{type}'! Apa punyamu?" },
-  "related": { "stressResponse": "Respons Stres", "stressCheck": "Cek Stres", "overthinkerTest": "Tes Overthinking", "hspTest": "Tes HSP", "burnoutTest": "Tes Burnout", "eqTest": "Tes EQ" },
-  "game": { "back": "DopaBrain Beranda" }
+  "share": {
+    "text": "Renungkan pilihan respons kekhawatiran Anda dalam delapan situasi sehari-hari.",
+    "success": "Dibagikan"
+  },
+  "related": {
+    "reset": "Reset sensorik 2 menit",
+    "brain": "Kuis gaya keputusan"
+  },
+  "game": {
+    "back": "DopaBrain Beranda"
+  }
 }

@@ -1,8 +1,9 @@
 {
   "name": "Anxiety Type Test - What Kind of Worrier Are You?",
   "short_name": "Anxiety Type",
-  "description": "Discover your anxiety type: Overthinker, Perfectionist, Social Worrier, Body Alarm, Future Dreader, or Control Seeker through 8 scenario-based questions",
+  "description": "Reflect on six worry-response choices across eight everyday scenarios. Not a diagnosis.",
   "start_url": "/anxiety-type/",
+  "scope": "/anxiety-type/",
   "display": "standalone",
   "background_color": "#0a0f1e",
   "theme_color": "#10b981",

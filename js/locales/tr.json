@@ -1,31 +1,144 @@
 {
-  "app": { "title": "Kaygi Tipi Testi", "loading": "Yukleniyor...", "skipLink": "Ana iceriye atla" },
-  "meta": { "description": "Kaygi tipiniz ne? Asiri Dusunur, Mukemmeliyetci, Sosyal Endiseli, Bedensel Alarm, Gelecek Korkusu veya Kontrol Arayicisi? 8 soru kaliplarinizi ortaya cikarir!", "keywords": "kaygi tipi testi, kaygi testi, psikoloji testi, ruh sagligi", "og_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz?", "og_description": "8 soru temel kaygi kalbinizi ortaya cikarir!", "twitter_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz?", "twitter_description": "8 soru temel kaygi kalbinizi ortaya cikarir!", "page_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz? | DopaBrain" },
-  "intro": { "title": "Kaygi Tipi Testi", "subtitle": "Ne tur bir endiseli siniz?", "social_proof": "kisi test etti", "feature_types": "6 kaygi tipi", "feature_questions": "8 senaryo", "feature_metrics": "5 kaygi boyutu", "time_estimate": "Yaklasik 1 dakika surer" },
-  "carousel": { "overthinker": "Asiri Dusunur", "perfectionist": "Mukemmeliyetci", "socialWorrier": "Sosyal Endiseli", "bodyAlarm": "Bedensel Alarm", "futureDreader": "Gelecek Korkusu", "controlSeeker": "Kontrol Arayicisi" },
-  "button": { "start": "Kaygi Tipinizi Kesfet", "retry": "Tekrar Dene", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Baglanti Kopyala" },
+  "meta": {
+    "page_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz? | DopaBrain",
+    "description": "Sekiz g?ndelik durumda en s?k se?ti?iniz kayg? tepkisini kar??la?t?r?n. Tan? de?il, ?zel ve ?zg?n bir d???nme etkinli?idir.",
+    "og_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz?",
+    "og_description": "Alt? yayg?n kayg? tepkisini kar??la?t?ran sekiz durumluk bir d???nme etkinli?i.",
+    "twitter_title": "Kaygi Tipi Testi - Ne Tur Bir Endiseli Siniz?",
+    "twitter_description": "Alt? yayg?n kayg? tepkisini kar??la?t?ran sekiz durumluk bir d???nme etkinli?i."
+  },
+  "app": {
+    "title": "Kaygi Tipi Testi",
+    "loading": "Yukleniyor...",
+    "skipLink": "Ana iceriye atla"
+  },
+  "intro": {
+    "title": "Kaygi Tipi Testi",
+    "subtitle": "Ne tur bir endiseli siniz?",
+    "feature_types": "6 kaygi tipi",
+    "feature_questions": "8 senaryo",
+    "feature_private": "Yan?tlar ?zel kal?r",
+    "time_estimate": "Yaklasik 1 dakika surer",
+    "boundary": "Bu ?zg?n etkinlik ki?isel d???nme i?indir. Kayg? bozuklu?u veya herhangi bir sa?l?k durumunu te?his etmez."
+  },
+  "carousel": {
+    "overthinker": "Asiri Dusunur",
+    "perfectionist": "Mukemmeliyetci",
+    "socialWorrier": "Sosyal Endiseli",
+    "bodyAlarm": "Bedensel Alarm",
+    "futureDreader": "Gelecek Korkusu",
+    "controlSeeker": "Kontrol Arayicisi"
+  },
+  "button": {
+    "start": "Kaygi Tipinizi Kesfet",
+    "retry": "Tekrar Dene",
+    "next_action": "?zel 3 ad?ml? stres plan? olu?tur",
+    "share": "Bu etkinli?i payla?"
+  },
   "question": {
-    "0": "Yarin onemli bir etkinlik var, siz...", "0a": "Her olasi senaryoyu kafanizda tekrar tekrar canlandirarak uyanik kalirsiniz", "0b": "Mukemmel olana kadar takintili sekilde hazirlarsaniz ve her seyi kontrol edersiniz", "0c": "Insanlarin sizin hakkinda ne dusunecegini merak edersiniz", "0d": "Kalbiniz hizlanir, mideniz bulanir, fiziksel olarak rahatlamaz", "0e": "Yanlis gidebilecek her seyi hayal eder ve korkuya kapilirsiniz", "0f": "Her ihtimal icin detayli kontrol listeleri ve yedek planlar yaparsaniz",
-    "1": "Mesaj gonderdiniz ama saatlerdir cevap yok, siz...", "1a": "Neyi yanlis soylediginizi analiz ederek mesajinizi 50 kez yeniden okursunuz", "1b": "Daha mukemmel yazmamis oldugunuza pismansiniz", "1c": "Karsi tarafin size kizgin olduguna kendinizi ikna edersiniz", "1d": "Midenizde dugum hisseder, telefonunuzu surekli kontrol edersiniz", "1e": "En kotusunu varsayarsaniz — sizi nefret ediyorlar", "1f": "Durum kontrolunuz disinda oldugu icin huzursuz olursunuz",
-    "2": "Patronunuz baglam vermeden 'Konusalim mi?' dediginde, siz...", "2a": "Yaptiginiz her gorevi zihinsel olarak gozden gecirerek hatalar arasaniz", "2b": "Hemen yeterince iyi performans gosterip gostermediginizi merak edersiniz", "2c": "Tek basina cagirilmaktan panikler, meslektaslar ne dusunecek diye endiselenirsiniz", "2d": "Aninda gogus sikismasi ve terli avuclar hissedersiniz", "2e": "'Kovuluyorum' dusuncesine atlar ve gelecegi felaketlestirirsiniz", "2f": "Hazirlanmak icin baglam vermemelerine sinirlenirsiniz",
-    "3": "Sunum yapmak uzeresiniz, siz...", "3a": "Sorabilecekleri her soruyu dusunmeyi birakamaz", "3b": "Hicbir sey yeterince iyi olmadigindan slaytlarini 20. kez duzenlersiniz", "3c": "Yargilanmaktan korkarsaniz ve kaybolmak istersiniz", "3d": "Bas donmesi, mide bulantisi ve elleriniz titrer", "3e": "Sunum sirasinda yanlis gidebilecek her seyi onceden korkarsaniz", "3f": "Her teknik detayi ve oturma duzeni kontrol etmeniz gerekir",
-    "4": "Vucudunuzda aciklanamayan bir agri fark ettiginizde, siz...", "4a": "Saatlerce semptom arastar ve tibbi makaleler okursunuz", "4b": "Kendinize yeterince bakim yapmadiginizi merak edersiniz", "4c": "Dramatik gorunmemek icin kimseye soylemezsiniz", "4d": "Aninda paniklersiniz — kalp carpintisi, hizli nefes", "4e": "En kotu teshisi hayal eder ve korkunç sonuclara hazirlanirsiniz", "4f": "Cevap almak icin hemen doktor randevusu alirsiniz",
-    "5": "Planlar son dakikada aniden degistiginde, siz...", "5a": "Yeni plani islemeye ve uyum saglamaya calisarak kafanizda takilir kalisiniz", "5b": "Orijinal planin daha iyi organize oldugunu dusunup sinirlenirsiniz", "5c": "Yeni duruma nasil uyum saglayacaginizi merak edersiniz", "5d": "Fiziksel rahatsizlik hissedersiniz — gergin kaslar, huzursuz mide", "5e": "Bugun baska neyin yanlis gidebilecegini hemen merak edersiniz", "5f": "Net bir plan olmadan derin huzursuzluk ve kaygi duyarsiniz",
-    "6": "Iste kucuk bir hata yaptiginizda, siz...", "6a": "Ne yapmaniz gerektigini gunlerce zihninizde tekrar edersiniz", "6b": "Daha once yakalamis olmaniz gerektigini dusunup kendinizi cezalandirirsiniz", "6c": "Herkesin fark ettigini ve simdi sizi daha az degerli gordugunu merak edersiniz", "6d": "Sicaklik dalgasi, mide dususu, fiziksel utanc tepkisi hissedersiniz", "6e": "Bu hatanin daha buyuk sorunlara donusecegini felaketlestirirsiniz", "6f": "Bir daha asla olmamasini saglayacak bir sistem hemen olusturursunuz",
-    "7": "Gece yatakta uyumaya calisirken, siz...", "7a": "Zihniniz bugun olan her seyi ve yarinin gorevlerini kosuyor", "7b": "Her seyi yeterince iyi yapip yapmadiginizi ve neyi iyilestirebileceginizi gozden gecirirsiniz", "7c": "Sosyal etkilesimleri tekrar ederek baskalarinin sizi nasil algiladigini merak edersiniz", "7d": "Huzursuz — vucut gergin, rahat bir pozisyon bulamaz", "7e": "Gelecek hakkinda endise eder ve gelecek olana dair belirsiz bir korku hissedersiniz", "7f": "Belirsizlik uykunuzu engellediginden yarini dakika dakika planlarsiniz"
+    "0": "Yarin onemli bir etkinlik var, siz...",
+    "1": "Mesaj gonderdiniz ama saatlerdir cevap yok, siz...",
+    "2": "Patronunuz baglam vermeden 'Konusalim mi?' dediginde, siz...",
+    "3": "Sunum yapmak uzeresiniz, siz...",
+    "4": "Vucudunuzda aciklanamayan bir agri fark ettiginizde, siz...",
+    "5": "Planlar son dakikada aniden degistiginde, siz...",
+    "6": "Iste kucuk bir hata yaptiginizda, siz...",
+    "7": "Gece yatakta uyumaya calisirken, siz...",
+    "0a": "Her olasi senaryoyu kafanizda tekrar tekrar canlandirarak uyanik kalirsiniz",
+    "0b": "Mukemmel olana kadar takintili sekilde hazirlarsaniz ve her seyi kontrol edersiniz",
+    "0c": "Insanlarin sizin hakkinda ne dusunecegini merak edersiniz",
+    "0d": "Kalbiniz hizlanir, mideniz bulanir, fiziksel olarak rahatlamaz",
+    "0e": "Yanlis gidebilecek her seyi hayal eder ve korkuya kapilirsiniz",
+    "0f": "Her ihtimal icin detayli kontrol listeleri ve yedek planlar yaparsaniz",
+    "1a": "Neyi yanlis soylediginizi analiz ederek mesajinizi 50 kez yeniden okursunuz",
+    "1b": "Daha mukemmel yazmamis oldugunuza pismansiniz",
+    "1c": "Karsi tarafin size kizgin olduguna kendinizi ikna edersiniz",
+    "1d": "Midenizde dugum hisseder, telefonunuzu surekli kontrol edersiniz",
+    "1e": "En kotusunu varsayarsaniz — sizi nefret ediyorlar",
+    "1f": "Durum kontrolunuz disinda oldugu icin huzursuz olursunuz",
+    "2a": "Yaptiginiz her gorevi zihinsel olarak gozden gecirerek hatalar arasaniz",
+    "2b": "Hemen yeterince iyi performans gosterip gostermediginizi merak edersiniz",
+    "2c": "Tek basina cagirilmaktan panikler, meslektaslar ne dusunecek diye endiselenirsiniz",
+    "2d": "Aninda gogus sikismasi ve terli avuclar hissedersiniz",
+    "2e": "'Kovuluyorum' dusuncesine atlar ve gelecegi felaketlestirirsiniz",
+    "2f": "Hazirlanmak icin baglam vermemelerine sinirlenirsiniz",
+    "3a": "Sorabilecekleri her soruyu dusunmeyi birakamaz",
+    "3b": "Hicbir sey yeterince iyi olmadigindan slaytlarini 20. kez duzenlersiniz",
+    "3c": "Yargilanmaktan korkarsaniz ve kaybolmak istersiniz",
+    "3d": "Bas donmesi, mide bulantisi ve elleriniz titrer",
+    "3e": "Sunum sirasinda yanlis gidebilecek her seyi onceden korkarsaniz",
+    "3f": "Her teknik detayi ve oturma duzeni kontrol etmeniz gerekir",
+    "4a": "Saatlerce semptom arastar ve tibbi makaleler okursunuz",
+    "4b": "Kendinize yeterince bakim yapmadiginizi merak edersiniz",
+    "4c": "Dramatik gorunmemek icin kimseye soylemezsiniz",
+    "4d": "Aninda paniklersiniz — kalp carpintisi, hizli nefes",
+    "4e": "En kotu teshisi hayal eder ve korkunç sonuclara hazirlanirsiniz",
+    "4f": "Cevap almak icin hemen doktor randevusu alirsiniz",
+    "5a": "Yeni plani islemeye ve uyum saglamaya calisarak kafanizda takilir kalisiniz",
+    "5b": "Orijinal planin daha iyi organize oldugunu dusunup sinirlenirsiniz",
+    "5c": "Yeni duruma nasil uyum saglayacaginizi merak edersiniz",
+    "5d": "Fiziksel rahatsizlik hissedersiniz — gergin kaslar, huzursuz mide",
+    "5e": "Bugun baska neyin yanlis gidebilecegini hemen merak edersiniz",
+    "5f": "Net bir plan olmadan derin huzursuzluk ve kaygi duyarsiniz",
+    "6a": "Ne yapmaniz gerektigini gunlerce zihninizde tekrar edersiniz",
+    "6b": "Daha once yakalamis olmaniz gerektigini dusunup kendinizi cezalandirirsiniz",
+    "6c": "Herkesin fark ettigini ve simdi sizi daha az degerli gordugunu merak edersiniz",
+    "6d": "Sicaklik dalgasi, mide dususu, fiziksel utanc tepkisi hissedersiniz",
+    "6e": "Bu hatanin daha buyuk sorunlara donusecegini felaketlestirirsiniz",
+    "6f": "Bir daha asla olmamasini saglayacak bir sistem hemen olusturursunuz",
+    "7a": "Zihniniz bugun olan her seyi ve yarinin gorevlerini kosuyor",
+    "7b": "Her seyi yeterince iyi yapip yapmadiginizi ve neyi iyilestirebileceginizi gozden gecirirsiniz",
+    "7c": "Sosyal etkilesimleri tekrar ederek baskalarinin sizi nasil algiladigini merak edersiniz",
+    "7d": "Huzursuz — vucut gergin, rahat bir pozisyon bulamaz",
+    "7e": "Gelecek hakkinda endise eder ve gelecek olana dair belirsiz bir korku hissedersiniz",
+    "7f": "Belirsizlik uykunuzu engellediginden yarini dakika dakika planlarsiniz"
   },
-  "analyzing": { "title": "Kaygi kalbilariniz analiz ediliyor...", "scanning": "Kaygi tepkileri taraniyor...", "matching": "Kaygi tipleriyle esleniyor...", "comparing": "Davranis kaliplari karsilastiriliyor...", "complete": "Analiz tamamlandi!" },
-  "result": { "your_type": "Kaygi Tipiniz", "anxiety_dimensions": "Kaygi Boyutlari", "anxiety_metrics": "Boyut Puanlari", "key_traits": "Temel Kaliplar", "moreTests": "Daha Fazla Kesfet", "share": "Sonucunuzu Paylasin", "percentile": "Tum katilimcilarin yalnizca {pct}'i {type} tipindedir" },
-  "metric": { "cognitive": "Bilissel", "physical": "Fiziksel", "social": "Sosyal", "anticipatory": "Ongorulu", "control": "Kontrol" },
+  "analyzing": {
+    "title": "?zetiniz haz?rlan?yor?",
+    "scanning": "Sekiz se?iminiz kar??la?t?r?l?yor?"
+  },
+  "result": {
+    "your_type": "En ?ok se?ti?iniz kayg? tepkisi",
+    "boundary": "Bu ?zet yaln?zca burada yapt???n?z se?imleri sayar. Tan? veya do?rulanm?? de?erlendirme de?ildir ve her durumdaki tepkinizi kan?tlamaz.",
+    "calculation": "??leyi?: her yan?t bir tepki etiketine bir puan ekler. En ?ok se?ilen g?sterilir; e?itlikte ilk e?le?en etiket kullan?l?r.",
+    "moreTests": "Daha Fazla Kesfet",
+    "share": "Sonucunuzu Paylasin"
+  },
   "type": {
-    "overthinker": { "name": "Asiri Dusunur", "tagline": "Kosan dusunceler, sonsuz tekrarlar, analiz felci", "description": "Kayginiz kafanizin icinde yasiyor. Zihniniz dusuncelerin, tekrarlarin ve 'ya olursa'larin kontrolsuz bir trenine donusuyor. Uc hafta onceki konusmalari analiz edersiniz, gece 2'de e-postalari kafanizda yeniden yazarsiniz. Beyniniz her zaman calisiyor. Derin dusunce yeteneginizdir; kapanmayan anahtar yukunu.", "trait1": "Konusmalari sonsuzca tekrar eder", "trait2": "Kararlarda analiz felci", "trait3": "Gece zihni susmuyor" },
-    "perfectionist": { "name": "Mukemmeliyetci", "tagline": "Hicbir sey yeterince iyi degil, kendiniz dahil", "description": "Kayginiz imkansiz yuksek standartlardan besleniyor. Her gorev kusursuz olmali. Yeniden yapar ve duzeltirsiniz cunku 'yeterince iyi degil' kaygisi dayanilmazdir. Ertelemek tembellik degil — mukemmel yapilamayacak bir seyi baslatma korkusudur.", "trait1": "Isi takintili sekilde duzeltir", "trait2": "Kusursuzluk korkusuyla erteler", "trait3": "Imkansiz yuksek standartlar koyar" },
-    "socialWorrier": { "name": "Sosyal Endiseli", "tagline": "Herkes izliyor, herkes yargilyor", "description": "Sizin icin diger insanlar kayginizin hem kaynagi hem izleyicisidir. Odaya girersiniz ve hemen yargi isaretlerini tararsaniz. Empatisiniz derin; oz farkindaligimiz da oylo derin.", "trait1": "Sosyal etkilesimleri tekrar eder", "trait2": "Ilgi merkezi olmaktan kacinir", "trait3": "Baskalarin tepkilerini fazla okur" },
-    "bodyAlarm": { "name": "Bedensel Alarm", "tagline": "Vucut, zihin anlamadan once alarmi caliyor", "description": "Baskalari dusunarak kaygiya girerken vucudunuz once variyor. Hizlanan kalp, sikisan gogus, bulanti, bas donmesi, titreyen eller — sinir sisteminiz beyin tehdidi tanimadan alarmi veriyor.", "trait1": "Fiziksel belirtiler once gelir", "trait2": "Panik hislerine yatkin", "trait3": "Sakin olsa bile vucut gergin kalir" },
-    "futureDreader": { "name": "Gelecek Korkusu", "tagline": "Ya her sey ters giderse? Muhtemelen gidecek.", "description": "Kayginiz simdi hakkinda degil — henuz olmayanlar hakkinda. Her zaman tehdit eden, belirsiz bir gelecekte yasiyorsunuz. En kotu senaryolari canli detaylarla hayal edersiniz. Ironi su ki simdi genellikle iyidir — ama siz nadiren oradasiniz.", "trait1": "En kotu senaryolari felaketlestirir", "trait2": "Simdide degil gelecekte yasar", "trait3": "Surekli bilinmeyenden korkar" },
-    "controlSeeker": { "name": "Kontrol Arayicisi", "tagline": "Kontrol edemiyorsam, basa cikamam", "description": "Seyler belirsiz hissettirdiginde kayginiz firlar. Planlara, yapiyi, yedeklere ihtiyaciniz var. Kendilgindenlik tehditkar hissetttirir. Organizasyonu sevdiginiz icin degil, kaos korkutugu icin sistemler olusturursunuz.", "trait1": "Her sey icin detayli plan gerekir", "trait2": "Kaygi olmadan devredemez", "trait3": "Katı rutinler basa cikma mekanizmasi" }
+    "overthinker": {
+      "name": "Asiri Dusunur",
+      "tagline": "En s?k tekrar tekrar d???nmeyi se?tiniz"
+    },
+    "perfectionist": {
+      "name": "Mukemmeliyetci",
+      "tagline": "En s?k kusursuz yapmay? se?tiniz"
+    },
+    "socialWorrier": {
+      "name": "Sosyal Endiseli",
+      "tagline": "En s?k ba?kalar?n?n yarg?s?n? ?nemsediniz"
+    },
+    "bodyAlarm": {
+      "name": "Bedensel Alarm",
+      "tagline": "En s?k beden sinyallerine odakland?n?z"
+    },
+    "futureDreader": {
+      "name": "Gelecek Korkusu",
+      "tagline": "En s?k s?rada ne olaca??n? d???nd?n?z"
+    },
+    "controlSeeker": {
+      "name": "Kontrol Arayicisi",
+      "tagline": "En s?k kesinlik arad?n?z"
+    }
   },
-  "share": { "text": "Kaygi tipim '{type}'! Seninki ne?" },
-  "related": { "stressResponse": "Stres Tepkisi", "stressCheck": "Stres Kontrolu", "overthinkerTest": "Asiri Dusunme Testi", "hspTest": "HSP Testi", "burnoutTest": "Tukenmislik Testi", "eqTest": "EQ Testi" },
-  "game": { "back": "DopaBrain Ana Sayfa" }
+  "share": {
+    "text": "Sekiz g?ndelik durumda kayg? tepkisi se?imlerinizi d???n?n.",
+    "success": "Payla??ld?"
+  },
+  "related": {
+    "reset": "2 dakikal?k duyusal s?f?rlama",
+    "brain": "Karar tarz? testi"
+  },
+  "game": {
+    "back": "DopaBrain Ana Sayfa"
+  }
 }

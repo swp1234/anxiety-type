@@ -1,26 +1,25 @@
 {
+  "meta": {
+    "page_title": "Anxiety Type Test - What Kind of Worrier Are You? | DopaBrain",
+    "description": "Compare the worry response you choose most often across eight everyday scenarios. A private, author-created reflection activity?not a diagnosis.",
+    "og_title": "Anxiety Type Test - What Kind of Worrier Are You?",
+    "og_description": "An eight-scenario reflection on six common worry responses.",
+    "twitter_title": "Anxiety Type Test - What Kind of Worrier Are You?",
+    "twitter_description": "An eight-scenario reflection on six common worry responses."
+  },
   "app": {
     "title": "Anxiety Type Test",
     "loading": "Loading...",
     "skipLink": "Skip to main"
   },
-  "meta": {
-    "description": "What's your anxiety type? Overthinker, Perfectionist, Social Worrier, Body Alarm, Future Dreader, or Control Seeker? 8 questions reveal your anxiety pattern!",
-    "keywords": "anxiety type test, anxiety quiz, worry type, psychology test, mental health quiz, anxiety patterns",
-    "og_title": "Anxiety Type Test - What Kind of Worrier Are You?",
-    "og_description": "8 questions reveal your primary anxiety pattern! Discover which of the 6 anxiety types matches you.",
-    "twitter_title": "Anxiety Type Test - What Kind of Worrier Are You?",
-    "twitter_description": "8 questions reveal your primary anxiety pattern!",
-    "page_title": "Anxiety Type Test - What Kind of Worrier Are You? | DopaBrain"
-  },
   "intro": {
     "title": "Anxiety Type Test",
     "subtitle": "What Kind of Worrier Are You?",
-    "social_proof": "people tested",
     "feature_types": "6 anxiety types",
     "feature_questions": "8 scenarios",
-    "feature_metrics": "5 anxiety dimensions",
-    "time_estimate": "Takes about 1 minute"
+    "feature_private": "Private by design",
+    "time_estimate": "Takes about 1 minute",
+    "boundary": "This author-created activity is for private reflection. It does not diagnose anxiety or any health condition."
   },
   "carousel": {
     "overthinker": "Overthinker",
@@ -33,69 +32,60 @@
   "button": {
     "start": "Discover Your Anxiety Type",
     "retry": "Try Again",
-    "share_kakao": "KakaoTalk",
-    "share_twitter": "Twitter",
-    "share_facebook": "Facebook",
-    "share_copy": "Copy Link"
+    "next_action": "Build a private 3-step stress plan",
+    "share": "Share this activity"
   },
   "question": {
     "0": "When you have an important event tomorrow, you...",
+    "1": "You sent a message but they haven't replied in hours, you...",
+    "2": "Your boss says 'Can we talk?' with no context, you...",
+    "3": "You're about to give a presentation, you...",
+    "4": "You notice an unexplained pain in your body, you...",
+    "5": "Plans suddenly change at the last minute, you...",
+    "6": "You made a small mistake at work, you...",
+    "7": "You're lying in bed at night trying to sleep, you...",
     "0a": "Lie awake replaying every possible scenario in your head over and over",
     "0b": "Obsessively prepare and double-check everything until it's perfect",
     "0c": "Worry about what people will think of you and how you'll come across",
     "0d": "Feel your heart racing, stomach churning, and can't physically relax",
     "0e": "Imagine all the things that could go wrong and spiral into dread",
     "0f": "Make detailed checklists and backup plans for every contingency",
-
-    "1": "You sent a message but they haven't replied in hours, you...",
     "1a": "Reread your message 50 times analyzing what you said wrong",
     "1b": "Regret not wording it more perfectly and draft better versions",
     "1c": "Convince yourself they're upset with you or talking about you",
     "1d": "Feel a knot in your stomach and check your phone obsessively",
     "1e": "Assume the worst — they hate you, the friendship is over",
     "1f": "Feel uneasy because the situation is out of your control",
-
-    "2": "Your boss says 'Can we talk?' with no context, you...",
     "2a": "Mentally review every task you've done, searching for mistakes",
     "2b": "Immediately worry you haven't been performing well enough",
     "2c": "Panic about being singled out and what colleagues will think",
     "2d": "Feel instant chest tightness and your palms get sweaty",
     "2e": "Jump to 'I'm getting fired' and start catastrophizing your future",
     "2f": "Feel frustrated that they didn't give you context to prepare",
-
-    "3": "You're about to give a presentation, you...",
     "3a": "Can't stop thinking about every possible question they might ask",
     "3b": "Revise your slides for the 20th time because nothing feels good enough",
     "3c": "Feel terrified of being judged and want to disappear",
     "3d": "Feel dizzy, nauseous, and your hands are trembling",
     "3e": "Dread everything that could go wrong during the presentation",
     "3f": "Need to control every technical detail and seating arrangement",
-
-    "4": "You notice an unexplained pain in your body, you...",
     "4a": "Spend hours researching symptoms and reading medical articles",
     "4b": "Worry that you haven't been taking care of yourself properly",
     "4c": "Avoid telling anyone because you don't want to seem dramatic",
     "4d": "Immediately feel panicked — your heart races and breathing quickens",
     "4e": "Imagine the worst diagnosis and plan for terrible outcomes",
     "4f": "Schedule a doctor's appointment immediately so you can have answers",
-
-    "5": "Plans suddenly change at the last minute, you...",
     "5a": "Get stuck in your head trying to process and adapt to the new plan",
     "5b": "Feel frustrated because the original plan was better organized",
     "5c": "Worry about how you'll fit in or perform in the new situation",
     "5d": "Feel physically uncomfortable — tense muscles, uneasy stomach",
     "5e": "Immediately worry about what else might go wrong today",
     "5f": "Feel deeply unsettled and anxious without a clear plan",
-
-    "6": "You made a small mistake at work, you...",
     "6a": "Replay it in your mind for days, analyzing what you should have done",
     "6b": "Beat yourself up because you should have caught it before it happened",
     "6c": "Worry that everyone noticed and thinks less of you now",
     "6d": "Feel a wave of heat, stomach drop, and physical shame response",
     "6e": "Catastrophize that this mistake will snowball into bigger problems",
     "6f": "Immediately create a system to make sure it never happens again",
-
-    "7": "You're lying in bed at night trying to sleep, you...",
     "7a": "Your mind races through everything that happened today and tomorrow's tasks",
     "7b": "Review whether you did everything well enough and what you could improve",
     "7c": "Replay social interactions and worry about how others perceived you",
@@ -104,88 +94,49 @@
     "7f": "Plan tomorrow down to the minute because uncertainty keeps you awake"
   },
   "analyzing": {
-    "title": "Analyzing your anxiety patterns...",
-    "scanning": "Scanning anxiety responses...",
-    "matching": "Matching with anxiety types...",
-    "comparing": "Comparing behavioral patterns...",
-    "complete": "Analysis complete!"
+    "title": "Preparing your summary...",
+    "scanning": "Comparing your eight choices..."
   },
   "result": {
-    "your_type": "Your Anxiety Type",
-    "anxiety_dimensions": "Anxiety Dimensions",
-    "anxiety_metrics": "Dimension Scores",
-    "key_traits": "Key Patterns",
+    "your_type": "Your most-selected worry response",
+    "boundary": "This summary only counts the choices you made here. It is not a diagnosis, a validated assessment, or proof of how you respond in every situation.",
+    "calculation": "How it works: each answer adds one point to a worry-response label. The label selected most often is shown above; ties use the earliest matching label.",
     "moreTests": "Explore More",
-    "share": "Share Your Result",
-    "percentile": "Only {pct} of all participants are the {type} type"
-  },
-  "metric": {
-    "cognitive": "Cognitive",
-    "physical": "Physical",
-    "social": "Social",
-    "anticipatory": "Anticipatory",
-    "control": "Control"
+    "share": "Share Your Result"
   },
   "type": {
     "overthinker": {
       "name": "Overthinker",
-      "tagline": "Racing thoughts, endless replays, analysis paralysis",
-      "description": "Your anxiety lives inside your head. While others feel stress in their body or social situations, your mind becomes a runaway train of thoughts, replays, and what-ifs. You analyze conversations from three weeks ago, rewrite emails in your head at 2 AM, and create elaborate mental scenarios for events that may never happen. Your brain is always running, always processing, always searching for the thing you missed. The gift is your depth of thought; the burden is that the off-switch doesn't work.",
-      "trait1": "Replays conversations endlessly",
-      "trait2": "Analysis paralysis on decisions",
-      "trait3": "Mind won't quiet down at night"
+      "tagline": "You selected repeated thinking most often"
     },
     "perfectionist": {
       "name": "Perfectionist",
-      "tagline": "Nothing is ever good enough, including yourself",
-      "description": "Your anxiety is fueled by impossibly high standards that you hold yourself to — and sometimes others. Every task must be done flawlessly, every detail must be right, and anything less than perfection feels like failure. You revise, redo, and overwork not because you want to, but because the anxiety of 'not good enough' is unbearable. Procrastination isn't laziness — it's fear of starting something you can't do perfectly. Your strength is your excellence; your prison is that you can never meet your own expectations.",
-      "trait1": "Revises work obsessively",
-      "trait2": "Procrastinates from fear of imperfection",
-      "trait3": "Sets impossibly high standards"
+      "tagline": "You selected getting it exactly right most often"
     },
     "socialWorrier": {
       "name": "Social Worrier",
-      "tagline": "Everyone is watching, everyone is judging",
-      "description": "For you, other people are both the source and audience of your anxiety. You walk into a room and immediately scan for signs of judgment. You replay social interactions wondering what you said wrong, convince yourself people are upset with you on no evidence, and avoid situations where you might be the center of attention. Your anxiety tells you that you're being evaluated every second, and you're always one misstep away from social exile. Your empathy runs deep; so does your self-consciousness.",
-      "trait1": "Replays social interactions",
-      "trait2": "Avoids being center of attention",
-      "trait3": "Reads into others' reactions"
+      "tagline": "You selected concern about others? judgment most often"
     },
     "bodyAlarm": {
       "name": "Body Alarm",
-      "tagline": "Your body sounds the alarm before your mind even catches up",
-      "description": "While others think their way into anxiety, your body gets there first. Racing heart, tight chest, nauseous stomach, dizzy head, trembling hands — your nervous system fires the alarm before your brain even registers the threat. You might not always know why you feel anxious, but your body always knows. Physical symptoms can spiral into panic attacks, health anxiety, or a constant state of tension that exhausts you. Your body is hyper-vigilant; learning to trust it is your journey.",
-      "trait1": "Physical symptoms come first",
-      "trait2": "Prone to panic sensations",
-      "trait3": "Body stays tense even when calm"
+      "tagline": "You selected attention to body signals most often"
     },
     "futureDreader": {
       "name": "Future Dreader",
-      "tagline": "What if everything goes wrong? It probably will.",
-      "description": "Your anxiety isn't about the present — it's about what hasn't happened yet. You live in a future that is always threatening, always uncertain, always about to go wrong. You catastrophize, imagining worst-case scenarios in vivid detail. A cough becomes cancer. A meeting becomes termination. A plane ticket becomes a crash. Your mind is a prediction machine set permanently to 'worst outcome.' The irony is that the present moment is usually fine — but you're rarely there to enjoy it.",
-      "trait1": "Catastrophizes worst-case scenarios",
-      "trait2": "Lives in the future, not the present",
-      "trait3": "Dreads the unknown constantly"
+      "tagline": "You selected concern about what comes next most often"
     },
     "controlSeeker": {
       "name": "Control Seeker",
-      "tagline": "If I can't control it, I can't handle it",
-      "description": "Your anxiety spikes whenever things feel uncertain or out of your hands. You need plans, structure, backup plans, and backup plans for your backup plans. Spontaneity feels threatening. Delegating feels dangerous. If you can't predict it, prepare for it, or manage it, the anxiety floods in. You create elaborate systems, checklists, and routines — not because you love organization, but because chaos is terrifying. Your reliability is your superpower; your rigidity is your cage.",
-      "trait1": "Needs detailed plans for everything",
-      "trait2": "Can't delegate without anxiety",
-      "trait3": "Rigid routines as coping mechanism"
+      "tagline": "You selected seeking certainty most often"
     }
   },
   "share": {
-    "text": "My anxiety type is '{type}'! What's yours?"
+    "text": "Reflect on your worry-response choices across eight everyday scenarios.",
+    "success": "Shared"
   },
   "related": {
-    "stressResponse": "Stress Response",
-    "stressCheck": "Stress Check",
-    "overthinkerTest": "Overthinker Test",
-    "hspTest": "HSP Test",
-    "burnoutTest": "Burnout Test",
-    "eqTest": "EQ Test"
+    "reset": "Two-minute sensory reset",
+    "brain": "Decision-style quiz"
   },
   "game": {
     "back": "DopaBrain Home"

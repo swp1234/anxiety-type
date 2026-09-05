@@ -1,31 +1,144 @@
 {
-  "app": { "title": "Test de Type d'Anxiete", "loading": "Chargement...", "skipLink": "Aller au contenu" },
-  "meta": { "description": "Quel est votre type d'anxiete? Penseur excessif, Perfectionniste, Inquiet social, Alarme corporelle, Peur du futur ou Chercheur de controle? 8 questions revelent votre profil!", "keywords": "test type anxiete, quiz anxiete, test psychologique, sante mentale", "og_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous?", "og_description": "8 questions revelent votre profil d'anxiete principal!", "twitter_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous?", "twitter_description": "8 questions revelent votre profil d'anxiete principal!", "page_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous? | DopaBrain" },
-  "intro": { "title": "Test de Type d'Anxiete", "subtitle": "Quel type d'inquiet etes-vous?", "social_proof": "personnes testees", "feature_types": "6 types d'anxiete", "feature_questions": "8 scenarios", "feature_metrics": "5 dimensions d'anxiete", "time_estimate": "Environ 1 minute" },
-  "carousel": { "overthinker": "Penseur Excessif", "perfectionist": "Perfectionniste", "socialWorrier": "Inquiet Social", "bodyAlarm": "Alarme Corporelle", "futureDreader": "Peur du Futur", "controlSeeker": "Chercheur de Controle" },
-  "button": { "start": "Decouvrez votre type d'anxiete", "retry": "Reessayer", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Copier le lien" },
+  "meta": {
+    "page_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous? | DopaBrain",
+    "description": "Comparez la r?action d?inqui?tude que vous choisissez le plus dans huit situations quotidiennes. Une r?flexion priv?e et originale, pas un diagnostic.",
+    "og_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous?",
+    "og_description": "Une r?flexion en huit situations sur six r?actions courantes ? l?inqui?tude.",
+    "twitter_title": "Test de Type d'Anxiete - Quel type d'inquiet etes-vous?",
+    "twitter_description": "Une r?flexion en huit situations sur six r?actions courantes ? l?inqui?tude."
+  },
+  "app": {
+    "title": "Test de Type d'Anxiete",
+    "loading": "Chargement...",
+    "skipLink": "Aller au contenu"
+  },
+  "intro": {
+    "title": "Test de Type d'Anxiete",
+    "subtitle": "Quel type d'inquiet etes-vous?",
+    "feature_types": "6 types d'anxiete",
+    "feature_questions": "8 scenarios",
+    "feature_private": "R?ponses priv?es",
+    "time_estimate": "Environ 1 minute",
+    "boundary": "Cette activit? originale sert ? la r?flexion priv?e. Elle ne diagnostique ni anxi?t? ni aucun probl?me de sant?."
+  },
+  "carousel": {
+    "overthinker": "Penseur Excessif",
+    "perfectionist": "Perfectionniste",
+    "socialWorrier": "Inquiet Social",
+    "bodyAlarm": "Alarme Corporelle",
+    "futureDreader": "Peur du Futur",
+    "controlSeeker": "Chercheur de Controle"
+  },
+  "button": {
+    "start": "Decouvrez votre type d'anxiete",
+    "retry": "Reessayer",
+    "next_action": "Cr?er un plan priv? en 3 ?tapes",
+    "share": "Partager cette activit?"
+  },
   "question": {
-    "0": "Quand vous avez un evenement important demain, vous...", "0a": "Restez eveille a repasser chaque scenario possible dans votre tete", "0b": "Preparez obsessionnellement et verifiez tout jusqu'a la perfection", "0c": "Vous inquietez de ce que les gens penseront de vous", "0d": "Sentez le coeur battre, l'estomac noue, incapable de vous detendre", "0e": "Imaginez tout ce qui pourrait mal tourner et sombrez dans la peur", "0f": "Faites des listes detaillees et des plans de secours pour chaque eventualite",
-    "1": "Vous avez envoye un message mais pas de reponse depuis des heures, vous...", "1a": "Relisez votre message 50 fois en analysant ce que vous avez mal dit", "1b": "Regrettez de ne pas l'avoir ecrit plus parfaitement", "1c": "Vous convainquez qu'ils sont faches contre vous", "1d": "Sentez un noeud a l'estomac et verifiez votre telephone obsessionnellement", "1e": "Assumez le pire — ils vous detestent, l'amitie est terminee", "1f": "Vous sentez mal a l'aise car la situation echappe a votre controle",
-    "2": "Votre patron dit 'On peut parler?' sans contexte, vous...", "2a": "Passez mentalement en revue chaque tache a la recherche d'erreurs", "2b": "Vous inquietez immediatement de ne pas avoir ete assez performant", "2c": "Paniquez d'etre singled out et de ce que les collegues penseront", "2d": "Sentez instantanement une oppression thoracique et des paumes moites", "2e": "Sautez a 'Je vais etre vire' et commencez a catastrophiser", "2f": "Etes frustre qu'aucun contexte n'ait ete donne pour vous preparer",
-    "3": "Vous etes sur le point de faire une presentation, vous...", "3a": "Ne pouvez pas arreter de penser a chaque question possible", "3b": "Revisez vos diapositives pour la 20eme fois car rien ne semble assez bien", "3c": "Etes terrifie d'etre juge et voulez disparaitre", "3d": "Sentez des vertiges, des nausees et vos mains tremblent", "3e": "Redoutez tout ce qui pourrait mal tourner pendant la presentation", "3f": "Avez besoin de controler chaque detail technique et la disposition des sieges",
-    "4": "Vous remarquez une douleur inexpliquee dans votre corps, vous...", "4a": "Passez des heures a rechercher les symptomes et lire des articles medicaux", "4b": "Vous inquietez de ne pas avoir pris soin de vous correctement", "4c": "Ne dites rien a personne pour ne pas paraitre dramatique", "4d": "Paniquez immediatement — coeur qui s'emballe, respiration rapide", "4e": "Imaginez le pire diagnostic et preparez-vous au pire", "4f": "Prenez immediatement rendez-vous chez le medecin pour avoir des reponses",
-    "5": "Les plans changent soudainement a la derniere minute, vous...", "5a": "Restez bloque dans votre tete essayant de traiter le nouveau plan", "5b": "Etes frustre car le plan original etait mieux organise", "5c": "Vous inquietez de comment vous integrer dans la nouvelle situation", "5d": "Ressentez un inconfort physique — muscles tendus, estomac noue", "5e": "Vous inquietez immediatement de ce qui d'autre pourrait mal tourner", "5f": "Vous sentez profondement perturbe sans plan clair",
-    "6": "Vous avez fait une petite erreur au travail, vous...", "6a": "Rejouez dans votre esprit pendant des jours ce que vous auriez du faire", "6b": "Vous punissez car vous auriez du la detecter avant", "6c": "Vous inquietez que tout le monde a remarque et pense moins de vous", "6d": "Ressentez une vague de chaleur, l'estomac qui tombe, reaction physique de honte", "6e": "Catastrophisez en pensant que cette erreur va devenir des problemes plus gros", "6f": "Creez immediatement un systeme pour que ca n'arrive plus jamais",
-    "7": "Vous etes au lit la nuit essayant de dormir, vous...", "7a": "Votre esprit parcourt tout ce qui s'est passe aujourd'hui et les taches de demain", "7b": "Evaluez si vous avez tout fait assez bien et ce que vous pourriez ameliorer", "7c": "Repassez les interactions sociales et vous inquietez de comment les autres vous percoivent", "7d": "Vous sentez agite — corps tendu, pas de position confortable", "7e": "Vous inquietez de l'avenir et ressentez une peur vague de ce qui vient", "7f": "Planifiez demain minute par minute car l'incertitude vous empeche de dormir"
+    "0": "Quand vous avez un evenement important demain, vous...",
+    "1": "Vous avez envoye un message mais pas de reponse depuis des heures, vous...",
+    "2": "Votre patron dit 'On peut parler?' sans contexte, vous...",
+    "3": "Vous etes sur le point de faire une presentation, vous...",
+    "4": "Vous remarquez une douleur inexpliquee dans votre corps, vous...",
+    "5": "Les plans changent soudainement a la derniere minute, vous...",
+    "6": "Vous avez fait une petite erreur au travail, vous...",
+    "7": "Vous etes au lit la nuit essayant de dormir, vous...",
+    "0a": "Restez eveille a repasser chaque scenario possible dans votre tete",
+    "0b": "Preparez obsessionnellement et verifiez tout jusqu'a la perfection",
+    "0c": "Vous inquietez de ce que les gens penseront de vous",
+    "0d": "Sentez le coeur battre, l'estomac noue, incapable de vous detendre",
+    "0e": "Imaginez tout ce qui pourrait mal tourner et sombrez dans la peur",
+    "0f": "Faites des listes detaillees et des plans de secours pour chaque eventualite",
+    "1a": "Relisez votre message 50 fois en analysant ce que vous avez mal dit",
+    "1b": "Regrettez de ne pas l'avoir ecrit plus parfaitement",
+    "1c": "Vous convainquez qu'ils sont faches contre vous",
+    "1d": "Sentez un noeud a l'estomac et verifiez votre telephone obsessionnellement",
+    "1e": "Assumez le pire — ils vous detestent, l'amitie est terminee",
+    "1f": "Vous sentez mal a l'aise car la situation echappe a votre controle",
+    "2a": "Passez mentalement en revue chaque tache a la recherche d'erreurs",
+    "2b": "Vous inquietez immediatement de ne pas avoir ete assez performant",
+    "2c": "Paniquez d'etre singled out et de ce que les collegues penseront",
+    "2d": "Sentez instantanement une oppression thoracique et des paumes moites",
+    "2e": "Sautez a 'Je vais etre vire' et commencez a catastrophiser",
+    "2f": "Etes frustre qu'aucun contexte n'ait ete donne pour vous preparer",
+    "3a": "Ne pouvez pas arreter de penser a chaque question possible",
+    "3b": "Revisez vos diapositives pour la 20eme fois car rien ne semble assez bien",
+    "3c": "Etes terrifie d'etre juge et voulez disparaitre",
+    "3d": "Sentez des vertiges, des nausees et vos mains tremblent",
+    "3e": "Redoutez tout ce qui pourrait mal tourner pendant la presentation",
+    "3f": "Avez besoin de controler chaque detail technique et la disposition des sieges",
+    "4a": "Passez des heures a rechercher les symptomes et lire des articles medicaux",
+    "4b": "Vous inquietez de ne pas avoir pris soin de vous correctement",
+    "4c": "Ne dites rien a personne pour ne pas paraitre dramatique",
+    "4d": "Paniquez immediatement — coeur qui s'emballe, respiration rapide",
+    "4e": "Imaginez le pire diagnostic et preparez-vous au pire",
+    "4f": "Prenez immediatement rendez-vous chez le medecin pour avoir des reponses",
+    "5a": "Restez bloque dans votre tete essayant de traiter le nouveau plan",
+    "5b": "Etes frustre car le plan original etait mieux organise",
+    "5c": "Vous inquietez de comment vous integrer dans la nouvelle situation",
+    "5d": "Ressentez un inconfort physique — muscles tendus, estomac noue",
+    "5e": "Vous inquietez immediatement de ce qui d'autre pourrait mal tourner",
+    "5f": "Vous sentez profondement perturbe sans plan clair",
+    "6a": "Rejouez dans votre esprit pendant des jours ce que vous auriez du faire",
+    "6b": "Vous punissez car vous auriez du la detecter avant",
+    "6c": "Vous inquietez que tout le monde a remarque et pense moins de vous",
+    "6d": "Ressentez une vague de chaleur, l'estomac qui tombe, reaction physique de honte",
+    "6e": "Catastrophisez en pensant que cette erreur va devenir des problemes plus gros",
+    "6f": "Creez immediatement un systeme pour que ca n'arrive plus jamais",
+    "7a": "Votre esprit parcourt tout ce qui s'est passe aujourd'hui et les taches de demain",
+    "7b": "Evaluez si vous avez tout fait assez bien et ce que vous pourriez ameliorer",
+    "7c": "Repassez les interactions sociales et vous inquietez de comment les autres vous percoivent",
+    "7d": "Vous sentez agite — corps tendu, pas de position confortable",
+    "7e": "Vous inquietez de l'avenir et ressentez une peur vague de ce qui vient",
+    "7f": "Planifiez demain minute par minute car l'incertitude vous empeche de dormir"
   },
-  "analyzing": { "title": "Analyse de vos schemas d'anxiete...", "scanning": "Scan des reponses d'anxiete...", "matching": "Correspondance avec les types d'anxiete...", "comparing": "Comparaison des schemas comportementaux...", "complete": "Analyse terminee!" },
-  "result": { "your_type": "Votre type d'anxiete", "anxiety_dimensions": "Dimensions d'anxiete", "anxiety_metrics": "Scores des dimensions", "key_traits": "Schemas cles", "moreTests": "Explorer plus", "share": "Partagez votre resultat", "percentile": "Seulement {pct} des participants sont du type {type}" },
-  "metric": { "cognitive": "Cognitive", "physical": "Physique", "social": "Sociale", "anticipatory": "Anticipatoire", "control": "Controle" },
+  "analyzing": {
+    "title": "Pr?paration de votre r?sum??",
+    "scanning": "Comparaison de vos huit choix?"
+  },
+  "result": {
+    "your_type": "Votre r?action la plus choisie",
+    "boundary": "Ce r?sum? compte uniquement vos choix ici. Ce n?est ni un diagnostic ni une ?valuation valid?e, et il ne prouve pas vos r?actions dans toutes les situations.",
+    "calculation": "Fonctionnement : chaque r?ponse ajoute un point ? une ?tiquette. La plus choisie appara?t ; en cas d??galit?, la premi?re correspondance est utilis?e.",
+    "moreTests": "Explorer plus",
+    "share": "Partagez votre resultat"
+  },
   "type": {
-    "overthinker": { "name": "Penseur Excessif", "tagline": "Pensees galopantes, repetitions sans fin, paralysie d'analyse", "description": "Votre anxiete vit dans votre tete. Votre esprit devient un train fou de pensees et de 'et si'. Vous analysez des conversations d'il y a trois semaines, reecrivez des emails dans votre tete a 2h du matin. Votre cerveau tourne toujours. La profondeur de pensee est votre don; l'interrupteur casse est votre fardeau.", "trait1": "Repasse les conversations sans fin", "trait2": "Paralysie d'analyse sur les decisions", "trait3": "L'esprit ne se calme pas la nuit" },
-    "perfectionist": { "name": "Perfectionniste", "tagline": "Rien n'est assez bien, vous compris", "description": "Votre anxiete est alimentee par des standards impossiblement eleves. Chaque tache doit etre impeccable. Vous revisez et refaites non pas parce que vous le voulez, mais parce que l'anxiete du 'pas assez bien' est insupportable. La procrastination n'est pas de la paresse — c'est la peur de commencer quelque chose que vous ne pouvez pas faire parfaitement.", "trait1": "Revise le travail obsessionnellement", "trait2": "Procrastine par peur de l'imperfection", "trait3": "Fixe des standards impossibles" },
-    "socialWorrier": { "name": "Inquiet Social", "tagline": "Tout le monde regarde, tout le monde juge", "description": "Pour vous, les autres sont a la fois la source et le public de votre anxiete. Vous entrez dans une piece et scannez immediatement les signes de jugement. Votre empathie est profonde; votre conscience de soi aussi.", "trait1": "Repasse les interactions sociales", "trait2": "Evite d'etre le centre d'attention", "trait3": "Lit trop dans les reactions des autres" },
-    "bodyAlarm": { "name": "Alarme Corporelle", "tagline": "Votre corps sonne l'alarme avant que l'esprit ne comprenne", "description": "Alors que d'autres pensent leur chemin vers l'anxiete, votre corps y arrive en premier. Coeur qui s'emballe, poitrine serree, nausee, vertige, mains tremblantes. Votre systeme nerveux declenche l'alarme avant que le cerveau ne reconnaisse la menace.", "trait1": "Les symptomes physiques arrivent en premier", "trait2": "Susceptible aux sensations de panique", "trait3": "Le corps reste tendu meme au calme" },
-    "futureDreader": { "name": "Peur du Futur", "tagline": "Et si tout allait mal? Ca va probablement arriver.", "description": "Votre anxiete n'est pas a propos du present — c'est a propos de ce qui ne s'est pas encore passe. Vous vivez dans un futur qui menace toujours. Vous catastrophisez en imaginant les pires scenarios en detail. L'ironie c'est que le moment present est generalement bien — mais vous y etes rarement.", "trait1": "Catastrophise les pires scenarios", "trait2": "Vit dans le futur, pas le present", "trait3": "Craint constamment l'inconnu" },
-    "controlSeeker": { "name": "Chercheur de Controle", "tagline": "Si je ne peux pas controler, je ne peux pas gerer", "description": "Votre anxiete monte quand les choses semblent incertaines. Vous avez besoin de plans, de structure, de sauvegardes. La spontaneite semble menacante. Vous creez des systemes elabores non pas parce que vous aimez l'organisation, mais parce que le chaos est effrayant. Votre fiabilite est votre superpouvoir; votre rigidite est votre cage.", "trait1": "A besoin de plans detailles pour tout", "trait2": "Ne peut pas deleguer sans anxiete", "trait3": "Routines strictes comme mecanisme de defense" }
+    "overthinker": {
+      "name": "Penseur Excessif",
+      "tagline": "Vous avez le plus souvent choisi de r?fl?chir sans fin"
+    },
+    "perfectionist": {
+      "name": "Perfectionniste",
+      "tagline": "Vous avez le plus souvent choisi de tout faire parfaitement"
+    },
+    "socialWorrier": {
+      "name": "Inquiet Social",
+      "tagline": "Vous avez le plus souvent craint le jugement des autres"
+    },
+    "bodyAlarm": {
+      "name": "Alarme Corporelle",
+      "tagline": "Vous avez le plus souvent pr?t? attention aux signaux corporels"
+    },
+    "futureDreader": {
+      "name": "Peur du Futur",
+      "tagline": "Vous avez le plus souvent craint la suite"
+    },
+    "controlSeeker": {
+      "name": "Chercheur de Controle",
+      "tagline": "Vous avez le plus souvent recherch? la certitude"
+    }
   },
-  "share": { "text": "Mon type d'anxiete est '{type}'! Et le votre?" },
-  "related": { "stressResponse": "Reponse au Stress", "stressCheck": "Verification du Stress", "overthinkerTest": "Test du Penseur Excessif", "hspTest": "Test HSP", "burnoutTest": "Test de Burnout", "eqTest": "Test QE" },
-  "game": { "back": "DopaBrain Accueil" }
+  "share": {
+    "text": "R?fl?chissez ? vos r?actions d?inqui?tude dans huit situations quotidiennes.",
+    "success": "Partag?"
+  },
+  "related": {
+    "reset": "R?initialisation sensorielle de 2 minutes",
+    "brain": "Quiz de style de d?cision"
+  },
+  "game": {
+    "back": "DopaBrain Accueil"
+  }
 }

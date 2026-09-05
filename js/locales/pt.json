@@ -1,31 +1,144 @@
 {
-  "app": { "title": "Teste de Tipo de Ansiedade", "loading": "Carregando...", "skipLink": "Pular para o principal" },
-  "meta": { "description": "Qual e o seu tipo de ansiedade? Pensador excessivo, Perfeccionista, Preocupado social, Alarme corporal, Medo do futuro ou Controlador? 8 perguntas revelam seu padrao!", "keywords": "teste de ansiedade, tipo de ansiedade, teste psicologico, saude mental", "og_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e?", "og_description": "8 perguntas revelam seu padrao principal de ansiedade!", "twitter_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e?", "twitter_description": "8 perguntas revelam seu padrao principal de ansiedade!", "page_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e? | DopaBrain" },
-  "intro": { "title": "Teste de Tipo de Ansiedade", "subtitle": "Que tipo de preocupado voce e?", "social_proof": "pessoas testadas", "feature_types": "6 tipos de ansiedade", "feature_questions": "8 cenarios", "feature_metrics": "5 dimensoes de ansiedade", "time_estimate": "Leva cerca de 1 minuto" },
-  "carousel": { "overthinker": "Pensador Excessivo", "perfectionist": "Perfeccionista", "socialWorrier": "Preocupado Social", "bodyAlarm": "Alarme Corporal", "futureDreader": "Medo do Futuro", "controlSeeker": "Controlador" },
-  "button": { "start": "Descubra seu tipo de ansiedade", "retry": "Tentar novamente", "share_kakao": "KakaoTalk", "share_twitter": "Twitter", "share_facebook": "Facebook", "share_copy": "Copiar link" },
+  "meta": {
+    "page_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e? | DopaBrain",
+    "description": "Compare a resposta de preocupa??o que voc? mais escolhe em oito situa??es cotidianas. Uma reflex?o privada e autoral, n?o um diagn?stico.",
+    "og_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e?",
+    "og_description": "Uma reflex?o em oito situa??es sobre seis respostas comuns de preocupa??o.",
+    "twitter_title": "Teste de Tipo de Ansiedade - Que tipo de preocupado voce e?",
+    "twitter_description": "Uma reflex?o em oito situa??es sobre seis respostas comuns de preocupa??o."
+  },
+  "app": {
+    "title": "Teste de Tipo de Ansiedade",
+    "loading": "Carregando...",
+    "skipLink": "Pular para o principal"
+  },
+  "intro": {
+    "title": "Teste de Tipo de Ansiedade",
+    "subtitle": "Que tipo de preocupado voce e?",
+    "feature_types": "6 tipos de ansiedade",
+    "feature_questions": "8 cenarios",
+    "feature_private": "Privado por padr?o",
+    "time_estimate": "Leva cerca de 1 minuto",
+    "boundary": "Esta atividade autoral serve para reflex?o privada. N?o diagnostica ansiedade ou qualquer condi??o de sa?de."
+  },
+  "carousel": {
+    "overthinker": "Pensador Excessivo",
+    "perfectionist": "Perfeccionista",
+    "socialWorrier": "Preocupado Social",
+    "bodyAlarm": "Alarme Corporal",
+    "futureDreader": "Medo do Futuro",
+    "controlSeeker": "Controlador"
+  },
+  "button": {
+    "start": "Descubra seu tipo de ansiedade",
+    "retry": "Tentar novamente",
+    "next_action": "Criar um plano privado de 3 passos",
+    "share": "Compartilhar esta atividade"
+  },
   "question": {
-    "0": "Quando voce tem um evento importante amanha, voce...", "0a": "Fica acordado repassando cada cenario possivel na sua cabeca", "0b": "Prepara obsessivamente e verifica tudo ate ficar perfeito", "0c": "Se preocupa com o que as pessoas vao pensar de voce", "0d": "Sente o coracao acelerado, estomago embrulhado, nao consegue relaxar", "0e": "Imagina tudo que pode dar errado e entra em pavor", "0f": "Faz checklists detalhadas e planos de backup para cada contingencia",
-    "1": "Voce enviou uma mensagem mas nao responderam ha horas, voce...", "1a": "Rele sua mensagem 50 vezes analisando o que disse de errado", "1b": "Se arrepende de nao ter escrito mais perfeitamente", "1c": "Se convence de que estao bravos com voce", "1d": "Sente um no no estomago e verifica o celular obsessivamente", "1e": "Assume o pior — te odeiam, a amizade acabou", "1f": "Se sente inquieto porque a situacao esta fora do seu controle",
-    "2": "Seu chefe diz 'Podemos conversar?' sem contexto, voce...", "2a": "Revisa mentalmente cada tarefa procurando erros", "2b": "Imediatamente se preocupa que nao teve bom desempenho", "2c": "Entra em panico por ser chamado e o que os colegas vao pensar", "2d": "Sente aperto no peito e palmas suadas instantaneamente", "2e": "Pula para 'vou ser demitido' e comeca a catastrofizar", "2f": "Fica frustrado por nao terem dado contexto para se preparar",
-    "3": "Voce esta prestes a fazer uma apresentacao, voce...", "3a": "Nao consegue parar de pensar em cada possivel pergunta", "3b": "Revisa seus slides pela vigesima vez porque nada parece bom o suficiente", "3c": "Fica aterrorizado de ser julgado e quer desaparecer", "3d": "Se sente tonto, com nausea e maos tremendo", "3e": "Teme tudo que pode dar errado durante a apresentacao", "3f": "Precisa controlar cada detalhe tecnico e disposicao dos assentos",
-    "4": "Voce nota uma dor inexplicavel no corpo, voce...", "4a": "Passa horas pesquisando sintomas e lendo artigos medicos", "4b": "Se preocupa que nao cuidou bem de si mesmo", "4c": "Nao conta para ninguem para nao parecer dramatico", "4d": "Imediatamente sente panico — coracao disparado, respiracao rapida", "4e": "Imagina o pior diagnostico e planeja para resultados terriveis", "4f": "Marca uma consulta medica imediatamente para ter respostas",
-    "5": "Planos mudam de repente no ultimo minuto, voce...", "5a": "Fica preso na sua cabeca tentando processar o novo plano", "5b": "Fica frustrado porque o plano original era mais organizado", "5c": "Se preocupa como vai se encaixar na nova situacao", "5d": "Sente desconforto fisico — musculos tensos, estomago inquieto", "5e": "Imediatamente se preocupa com o que mais pode dar errado hoje", "5f": "Se sente profundamente inquieto sem um plano claro",
-    "6": "Voce cometeu um pequeno erro no trabalho, voce...", "6a": "Repassa na mente por dias analisando o que deveria ter feito", "6b": "Se castiga porque deveria ter percebido antes", "6c": "Se preocupa que todos notaram e pensam menos de voce", "6d": "Sente uma onda de calor, estomago afundando, resposta fisica de vergonha", "6e": "Catastrofiza achando que esse erro vai virar problemas maiores", "6f": "Imediatamente cria um sistema para garantir que nunca aconteca de novo",
-    "7": "Voce esta deitado na cama tentando dormir, voce...", "7a": "Sua mente percorre tudo que aconteceu hoje e as tarefas de amanha", "7b": "Revisa se fez tudo bem o suficiente e o que poderia melhorar", "7c": "Repassa interacoes sociais e se preocupa como os outros te perceberam", "7d": "Se sente inquieto — corpo tenso, nao encontra posicao confortavel", "7e": "Se preocupa com o futuro e sente um medo vago do que esta por vir", "7f": "Planeja amanha minuto a minuto porque a incerteza nao deixa dormir"
+    "0": "Quando voce tem um evento importante amanha, voce...",
+    "1": "Voce enviou uma mensagem mas nao responderam ha horas, voce...",
+    "2": "Seu chefe diz 'Podemos conversar?' sem contexto, voce...",
+    "3": "Voce esta prestes a fazer uma apresentacao, voce...",
+    "4": "Voce nota uma dor inexplicavel no corpo, voce...",
+    "5": "Planos mudam de repente no ultimo minuto, voce...",
+    "6": "Voce cometeu um pequeno erro no trabalho, voce...",
+    "7": "Voce esta deitado na cama tentando dormir, voce...",
+    "0a": "Fica acordado repassando cada cenario possivel na sua cabeca",
+    "0b": "Prepara obsessivamente e verifica tudo ate ficar perfeito",
+    "0c": "Se preocupa com o que as pessoas vao pensar de voce",
+    "0d": "Sente o coracao acelerado, estomago embrulhado, nao consegue relaxar",
+    "0e": "Imagina tudo que pode dar errado e entra em pavor",
+    "0f": "Faz checklists detalhadas e planos de backup para cada contingencia",
+    "1a": "Rele sua mensagem 50 vezes analisando o que disse de errado",
+    "1b": "Se arrepende de nao ter escrito mais perfeitamente",
+    "1c": "Se convence de que estao bravos com voce",
+    "1d": "Sente um no no estomago e verifica o celular obsessivamente",
+    "1e": "Assume o pior — te odeiam, a amizade acabou",
+    "1f": "Se sente inquieto porque a situacao esta fora do seu controle",
+    "2a": "Revisa mentalmente cada tarefa procurando erros",
+    "2b": "Imediatamente se preocupa que nao teve bom desempenho",
+    "2c": "Entra em panico por ser chamado e o que os colegas vao pensar",
+    "2d": "Sente aperto no peito e palmas suadas instantaneamente",
+    "2e": "Pula para 'vou ser demitido' e comeca a catastrofizar",
+    "2f": "Fica frustrado por nao terem dado contexto para se preparar",
+    "3a": "Nao consegue parar de pensar em cada possivel pergunta",
+    "3b": "Revisa seus slides pela vigesima vez porque nada parece bom o suficiente",
+    "3c": "Fica aterrorizado de ser julgado e quer desaparecer",
+    "3d": "Se sente tonto, com nausea e maos tremendo",
+    "3e": "Teme tudo que pode dar errado durante a apresentacao",
+    "3f": "Precisa controlar cada detalhe tecnico e disposicao dos assentos",
+    "4a": "Passa horas pesquisando sintomas e lendo artigos medicos",
+    "4b": "Se preocupa que nao cuidou bem de si mesmo",
+    "4c": "Nao conta para ninguem para nao parecer dramatico",
+    "4d": "Imediatamente sente panico — coracao disparado, respiracao rapida",
+    "4e": "Imagina o pior diagnostico e planeja para resultados terriveis",
+    "4f": "Marca uma consulta medica imediatamente para ter respostas",
+    "5a": "Fica preso na sua cabeca tentando processar o novo plano",
+    "5b": "Fica frustrado porque o plano original era mais organizado",
+    "5c": "Se preocupa como vai se encaixar na nova situacao",
+    "5d": "Sente desconforto fisico — musculos tensos, estomago inquieto",
+    "5e": "Imediatamente se preocupa com o que mais pode dar errado hoje",
+    "5f": "Se sente profundamente inquieto sem um plano claro",
+    "6a": "Repassa na mente por dias analisando o que deveria ter feito",
+    "6b": "Se castiga porque deveria ter percebido antes",
+    "6c": "Se preocupa que todos notaram e pensam menos de voce",
+    "6d": "Sente uma onda de calor, estomago afundando, resposta fisica de vergonha",
+    "6e": "Catastrofiza achando que esse erro vai virar problemas maiores",
+    "6f": "Imediatamente cria um sistema para garantir que nunca aconteca de novo",
+    "7a": "Sua mente percorre tudo que aconteceu hoje e as tarefas de amanha",
+    "7b": "Revisa se fez tudo bem o suficiente e o que poderia melhorar",
+    "7c": "Repassa interacoes sociais e se preocupa como os outros te perceberam",
+    "7d": "Se sente inquieto — corpo tenso, nao encontra posicao confortavel",
+    "7e": "Se preocupa com o futuro e sente um medo vago do que esta por vir",
+    "7f": "Planeja amanha minuto a minuto porque a incerteza nao deixa dormir"
   },
-  "analyzing": { "title": "Analisando seus padroes de ansiedade...", "scanning": "Escaneando respostas de ansiedade...", "matching": "Combinando com tipos de ansiedade...", "comparing": "Comparando padroes comportamentais...", "complete": "Analise completa!" },
-  "result": { "your_type": "Seu tipo de ansiedade", "anxiety_dimensions": "Dimensoes de ansiedade", "anxiety_metrics": "Pontuacoes", "key_traits": "Padroes principais", "moreTests": "Explorar mais", "share": "Compartilhe seu resultado", "percentile": "Apenas {pct} dos participantes sao do tipo {type}" },
-  "metric": { "cognitive": "Cognitiva", "physical": "Fisica", "social": "Social", "anticipatory": "Antecipatoria", "control": "Controle" },
+  "analyzing": {
+    "title": "Preparando seu resumo?",
+    "scanning": "Comparando suas oito escolhas?"
+  },
+  "result": {
+    "your_type": "Sua resposta de preocupa??o mais escolhida",
+    "boundary": "Este resumo conta apenas suas escolhas aqui. N?o ? diagn?stico nem avalia??o validada e n?o prova como voc? reage em todas as situa??es.",
+    "calculation": "Como funciona: cada resposta soma um ponto a um r?tulo. O mais escolhido aparece; em empate, vale o primeiro r?tulo correspondente.",
+    "moreTests": "Explorar mais",
+    "share": "Compartilhe seu resultado"
+  },
   "type": {
-    "overthinker": { "name": "Pensador Excessivo", "tagline": "Pensamentos acelerados, repeticoes infinitas, paralisia por analise", "description": "Sua ansiedade vive na sua cabeca. Sua mente se torna um trem descontrolado de pensamentos e 'e se'. Voce analisa conversas de tres semanas atras, reescreve emails na cabeca as 2 da manha. Seu cerebro esta sempre funcionando. A profundidade de pensamento e seu dom; o interruptor quebrado e seu fardo.", "trait1": "Repete conversas infinitamente", "trait2": "Paralisia por analise em decisoes", "trait3": "A mente nao silencia a noite" },
-    "perfectionist": { "name": "Perfeccionista", "tagline": "Nada e bom o suficiente, incluindo voce mesmo", "description": "Sua ansiedade e alimentada por padroes impossivelmente altos. Cada tarefa deve ser impecavel. Voce revisa e refaz nao porque quer, mas porque a ansiedade de 'nao e bom o suficiente' e insuportavel. Procrastinar nao e preguica — e medo de comecar algo que nao pode fazer perfeitamente.", "trait1": "Revisa trabalho obsessivamente", "trait2": "Procrastina por medo da imperfeicao", "trait3": "Estabelece padroes impossiveis" },
-    "socialWorrier": { "name": "Preocupado Social", "tagline": "Todos estao olhando, todos estao julgando", "description": "Para voce, outras pessoas sao tanto a fonte quanto a audiencia da sua ansiedade. Voce entra numa sala e escaneia sinais de julgamento. Repassa interacoes sociais questionando o que disse de errado. Sua empatia e profunda; sua autoconsciencia tambem.", "trait1": "Repassa interacoes sociais", "trait2": "Evita ser o centro das atencoes", "trait3": "Interpreta demais as reacoes dos outros" },
-    "bodyAlarm": { "name": "Alarme Corporal", "tagline": "Seu corpo soa o alarme antes da mente perceber", "description": "Enquanto outros pensam ate ficarem ansiosos, seu corpo chega primeiro. Coracao acelerado, peito apertado, nausea, tontura, maos tremulas — seu sistema nervoso dispara o alarme antes do cerebro registrar a ameaca. Sintomas fisicos podem escalar para ataques de panico ou tensao constante.", "trait1": "Sintomas fisicos vem primeiro", "trait2": "Propenso a sensacoes de panico", "trait3": "Corpo permanece tenso mesmo em calma" },
-    "futureDreader": { "name": "Medo do Futuro", "tagline": "E se tudo der errado? Provavelmente vai.", "description": "Sua ansiedade nao e sobre o presente — e sobre o que ainda nao aconteceu. Voce vive num futuro que sempre ameaca. Catastrofiza, imaginando os piores cenarios em detalhes vividos. Uma tosse vira cancer, uma reuniao vira demissao. A ironia e que o momento presente geralmente esta bem — mas voce raramente esta la.", "trait1": "Catastrofiza os piores cenarios", "trait2": "Vive no futuro, nao no presente", "trait3": "Teme constantemente o desconhecido" },
-    "controlSeeker": { "name": "Controlador", "tagline": "Se nao posso controlar, nao posso lidar", "description": "Sua ansiedade dispara quando as coisas parecem incertas. Voce precisa de planos, estrutura e backups. Espontaneidade parece ameacadora. Voce cria sistemas elaborados nao porque ama organizacao, mas porque o caos e assustador. Sua confiabilidade e seu superpoder; sua rigidez e sua gaiola.", "trait1": "Precisa de planos detalhados para tudo", "trait2": "Nao consegue delegar sem ansiedade", "trait3": "Rotinas rigidas como mecanismo de enfrentamento" }
+    "overthinker": {
+      "name": "Pensador Excessivo",
+      "tagline": "Voc? escolheu pensar repetidamente com mais frequ?ncia"
+    },
+    "perfectionist": {
+      "name": "Perfeccionista",
+      "tagline": "Voc? escolheu fazer tudo exatamente certo com mais frequ?ncia"
+    },
+    "socialWorrier": {
+      "name": "Preocupado Social",
+      "tagline": "Voc? escolheu preocupar-se com o julgamento alheio com mais frequ?ncia"
+    },
+    "bodyAlarm": {
+      "name": "Alarme Corporal",
+      "tagline": "Voc? escolheu observar sinais corporais com mais frequ?ncia"
+    },
+    "futureDreader": {
+      "name": "Medo do Futuro",
+      "tagline": "Voc? escolheu preocupar-se com o que vem depois com mais frequ?ncia"
+    },
+    "controlSeeker": {
+      "name": "Controlador",
+      "tagline": "Voc? escolheu buscar certeza com mais frequ?ncia"
+    }
   },
-  "share": { "text": "Meu tipo de ansiedade e '{type}'! Qual e o seu?" },
-  "related": { "stressResponse": "Resposta ao Estresse", "stressCheck": "Verificacao de Estresse", "overthinkerTest": "Teste do Pensador Excessivo", "hspTest": "Teste HSP", "burnoutTest": "Teste de Burnout", "eqTest": "Teste EQ" },
-  "game": { "back": "DopaBrain Inicio" }
+  "share": {
+    "text": "Reflita sobre suas respostas de preocupa??o em oito situa??es cotidianas.",
+    "success": "Compartilhado"
+  },
+  "related": {
+    "reset": "Rein?cio sensorial de 2 minutos",
+    "brain": "Quiz de estilo de decis?o"
+  },
+  "game": {
+    "back": "DopaBrain Inicio"
+  }
 }

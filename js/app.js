@@ -13,75 +13,12 @@ const QUESTIONS = [
     { id: 7, icon: '\u{1F319}', questionKey: 'question.7', options: ['question.7a', 'question.7b', 'question.7c', 'question.7d', 'question.7e', 'question.7f'] }
 ];
 
-// Each option maps to score additions for each type and dimension
-// Type indices: 0=Overthinker, 1=Perfectionist, 2=SocialWorrier, 3=BodyAlarm, 4=FutureDreader, 5=ControlSeeker
-// Dimension scores: [cognitive, physical, social, anticipatory, control]
-const SCORE_MAP = {
-    '0a': { type: [3,0,0,0,1,0], dim: [3,0,0,2,0] },
-    '0b': { type: [0,3,0,0,0,1], dim: [1,0,0,0,3] },
-    '0c': { type: [0,0,3,0,0,0], dim: [0,0,3,1,0] },
-    '0d': { type: [0,0,0,3,0,0], dim: [0,3,0,1,0] },
-    '0e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '0f': { type: [0,0,0,0,0,3], dim: [0,0,0,1,3] },
-
-    '1a': { type: [3,0,0,0,1,0], dim: [3,0,1,1,0] },
-    '1b': { type: [0,3,0,0,0,0], dim: [2,0,0,0,2] },
-    '1c': { type: [0,0,3,0,0,0], dim: [0,0,3,0,0] },
-    '1d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '1e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '1f': { type: [0,0,0,0,0,3], dim: [0,0,0,0,3] },
-
-    '2a': { type: [3,0,0,0,1,0], dim: [3,0,0,1,0] },
-    '2b': { type: [0,3,0,0,0,0], dim: [1,0,1,0,2] },
-    '2c': { type: [0,0,3,0,0,0], dim: [0,0,3,1,0] },
-    '2d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '2e': { type: [0,1,0,0,3,0], dim: [1,0,0,3,0] },
-    '2f': { type: [0,0,0,0,0,3], dim: [0,0,0,1,3] },
-
-    '3a': { type: [3,0,1,0,0,0], dim: [3,0,1,0,0] },
-    '3b': { type: [0,3,0,0,0,0], dim: [1,0,0,0,3] },
-    '3c': { type: [0,0,3,0,0,0], dim: [0,1,3,0,0] },
-    '3d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '3e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '3f': { type: [0,0,0,0,0,3], dim: [0,0,0,0,3] },
-
-    '4a': { type: [3,0,0,0,0,0], dim: [3,0,0,1,0] },
-    '4b': { type: [0,3,0,0,0,1], dim: [1,0,0,0,2] },
-    '4c': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '4d': { type: [0,0,3,0,0,0], dim: [0,0,3,0,0] },
-    '4e': { type: [0,0,0,0,3,0], dim: [0,1,0,3,0] },
-    '4f': { type: [0,0,0,0,0,3], dim: [0,0,0,1,3] },
-
-    '5a': { type: [3,0,0,0,1,0], dim: [3,0,0,1,0] },
-    '5b': { type: [0,3,0,0,0,0], dim: [1,0,0,0,3] },
-    '5c': { type: [0,0,3,0,0,0], dim: [0,0,3,0,0] },
-    '5d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '5e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '5f': { type: [0,0,0,0,0,3], dim: [0,0,0,0,3] },
-
-    '6a': { type: [3,0,0,0,0,0], dim: [3,0,0,1,0] },
-    '6b': { type: [0,3,0,0,0,0], dim: [2,0,0,0,2] },
-    '6c': { type: [0,0,3,0,0,0], dim: [0,0,3,0,0] },
-    '6d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '6e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '6f': { type: [0,0,0,0,0,3], dim: [0,0,0,1,3] },
-
-    '7a': { type: [3,0,0,0,1,0], dim: [3,0,0,2,0] },
-    '7b': { type: [0,3,0,0,0,1], dim: [1,0,0,0,2] },
-    '7c': { type: [0,0,3,0,0,0], dim: [0,0,3,0,0] },
-    '7d': { type: [0,0,0,3,0,0], dim: [0,3,0,0,0] },
-    '7e': { type: [0,0,0,0,3,0], dim: [1,0,0,3,0] },
-    '7f': { type: [0,0,0,0,0,3], dim: [0,0,0,1,3] }
-};
-
 const ANXIETY_TYPES = {
     overthinker: {
         id: 'overthinker',
         emoji: '\u{1F9E0}',
         nameKey: 'type.overthinker.name',
         taglineKey: 'type.overthinker.tagline',
-        descKey: 'type.overthinker.description',
-        traitsKeys: ['type.overthinker.trait1', 'type.overthinker.trait2', 'type.overthinker.trait3'],
         color: '#8b5cf6'
     },
     perfectionist: {
@@ -89,8 +26,6 @@ const ANXIETY_TYPES = {
         emoji: '\u{1F3AF}',
         nameKey: 'type.perfectionist.name',
         taglineKey: 'type.perfectionist.tagline',
-        descKey: 'type.perfectionist.description',
-        traitsKeys: ['type.perfectionist.trait1', 'type.perfectionist.trait2', 'type.perfectionist.trait3'],
         color: '#f59e0b'
     },
     socialWorrier: {
@@ -98,8 +33,6 @@ const ANXIETY_TYPES = {
         emoji: '\u{1F465}',
         nameKey: 'type.socialWorrier.name',
         taglineKey: 'type.socialWorrier.tagline',
-        descKey: 'type.socialWorrier.description',
-        traitsKeys: ['type.socialWorrier.trait1', 'type.socialWorrier.trait2', 'type.socialWorrier.trait3'],
         color: '#3b82f6'
     },
     bodyAlarm: {
@@ -107,8 +40,6 @@ const ANXIETY_TYPES = {
         emoji: '\u{26A1}',
         nameKey: 'type.bodyAlarm.name',
         taglineKey: 'type.bodyAlarm.tagline',
-        descKey: 'type.bodyAlarm.description',
-        traitsKeys: ['type.bodyAlarm.trait1', 'type.bodyAlarm.trait2', 'type.bodyAlarm.trait3'],
         color: '#ef4444'
     },
     futureDreader: {
@@ -116,8 +47,6 @@ const ANXIETY_TYPES = {
         emoji: '\u{1F52E}',
         nameKey: 'type.futureDreader.name',
         taglineKey: 'type.futureDreader.tagline',
-        descKey: 'type.futureDreader.description',
-        traitsKeys: ['type.futureDreader.trait1', 'type.futureDreader.trait2', 'type.futureDreader.trait3'],
         color: '#6366f1'
     },
     controlSeeker: {
@@ -125,58 +54,26 @@ const ANXIETY_TYPES = {
         emoji: '\u{1F512}',
         nameKey: 'type.controlSeeker.name',
         taglineKey: 'type.controlSeeker.tagline',
-        descKey: 'type.controlSeeker.description',
-        traitsKeys: ['type.controlSeeker.trait1', 'type.controlSeeker.trait2', 'type.controlSeeker.trait3'],
         color: '#10b981'
     }
 };
 
 const TYPE_ORDER = ['overthinker', 'perfectionist', 'socialWorrier', 'bodyAlarm', 'futureDreader', 'controlSeeker'];
-const DIMENSION_KEYS = ['cognitive', 'physical', 'social', 'anticipatory', 'control'];
-
 class AnxietyTypeApp {
     constructor() {
         this.currentQuestion = 0;
         this.answers = [];
         this.typeScores = [0, 0, 0, 0, 0, 0]; // overthinker, perfectionist, socialWorrier, bodyAlarm, futureDreader, controlSeeker
-        this.dimScores = [0, 0, 0, 0, 0]; // cognitive, physical, social, anticipatory, control
         this.resultType = null;
-        this.resultAdLoaded = false;
+        this.trackedStages = new Set();
         this.init();
     }
 
-    trackEvent(name, params = {}) {
-        const payload = Object.assign({
-            app_name: 'anxiety_type',
-            result_type: this.resultType ? this.resultType.id : ''
-        }, params);
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push(Object.assign({ event: name }, payload));
+    trackStage(name) {
+        if (this.trackedStages.has(name)) return;
+        this.trackedStages.add(name);
         if (typeof gtag === 'function') {
-            gtag('event', name, payload);
-        }
-    }
-
-    loadResultAd(retryCount = 0) {
-        if (this.resultAdLoaded) return;
-        const slot = document.querySelector('[data-ad-surface="anxiety_type_result_ad"] ins.adsbygoogle');
-        if (!slot) return;
-
-        const width = slot.offsetWidth || (slot.parentElement ? slot.parentElement.offsetWidth : 0);
-        if (width < 32) {
-            if (retryCount < 5) {
-                setTimeout(() => this.loadResultAd(retryCount + 1), 150);
-            }
-            return;
-        }
-
-        try {
-            (window.adsbygoogle = window.adsbygoogle || []).push({});
-            this.resultAdLoaded = true;
-            slot.dataset.adLoaded = 'true';
-            this.trackEvent('anxiety_type_result_ad_impression', { ad_surface: 'anxiety_type_result_ad' });
-        } catch (e) {
-            slot.dataset.adLoaded = 'error';
+            gtag('event', name, { event_category: 'anxiety_type' });
         }
     }
 
@@ -190,16 +87,8 @@ class AnxietyTypeApp {
         this.initTheme();
         this.hideLoader();
 
-        // Optional module guards
-        if (typeof DailyStreak !== 'undefined') { DailyStreak.init(); }
-        if (typeof GameAchievements !== 'undefined') { GameAchievements.init(); }
-        if (typeof GameAds !== 'undefined') { GameAds.init(); }
-        if (typeof Haptic !== 'undefined') { Haptic.init(); }
-
-        // GA4 event
-        if (typeof gtag === 'function') {
-            gtag('event', 'page_view', { page_title: 'Anxiety Type Test' });
-        }
+        this.updateDestinations();
+        this.trackStage('anxiety_type_view');
     }
 
     bindEvents() {
@@ -224,21 +113,29 @@ class AnxietyTypeApp {
                 langMenu.classList.toggle('hidden');
             });
             document.querySelectorAll('.lang-option').forEach(btn => {
-                btn.addEventListener('click', () => {
+                btn.addEventListener('click', async () => {
                     const lang = btn.getAttribute('data-lang');
-                    if (window.i18n) window.i18n.setLanguage(lang);
+                    if (window.i18n) await window.i18n.setLanguage(lang);
+                    this.updateDestinations();
                     langMenu.classList.add('hidden');
                 });
             });
             document.addEventListener('click', () => langMenu.classList.add('hidden'));
         }
 
-        // Share buttons
-        document.getElementById('save-result')?.addEventListener('click', () => this.downloadResultCard());
-        document.getElementById('share-kakao')?.addEventListener('click', () => this.shareKakao());
-        document.getElementById('share-twitter')?.addEventListener('click', () => this.shareTwitter());
-        document.getElementById('share-facebook')?.addEventListener('click', () => this.shareFacebook());
-        document.getElementById('share-copy')?.addEventListener('click', () => this.shareCopy());
+        document.getElementById('share-page')?.addEventListener('click', () => this.sharePage());
+        document.getElementById('next-action')?.addEventListener('click', () => this.trackStage('anxiety_type_next_click'));
+        document.querySelector('.related-grid')?.addEventListener('click', (event) => {
+            if (event.target.closest('.related-card')) this.trackStage('anxiety_type_related_click');
+        });
+    }
+
+    updateDestinations() {
+        const lang = window.i18n?.getCurrentLanguage() || 'ko';
+        const next = document.getElementById('next-action');
+        if (next) next.href = '/stress-check/?lang=' + encodeURIComponent(lang) + '&source=anxiety_type_result';
+        const reset = document.querySelector('[data-related-slug="sensory-reset"]');
+        if (reset) reset.href = '/hsp-test/reset.html?lang=' + encodeURIComponent(lang) + '&source=anxiety_type_result';
     }
 
     hideLoader() {
@@ -284,13 +181,9 @@ class AnxietyTypeApp {
         this.currentQuestion = 0;
         this.answers = [];
         this.typeScores = [0, 0, 0, 0, 0, 0];
-        this.dimScores = [0, 0, 0, 0, 0];
         this.showScreen('question-screen');
         this.renderQuestion();
-
-        if (typeof gtag === 'function') {
-            gtag('event', 'quiz_start', { event_category: 'anxiety_type' });
-        }
+        this.trackStage('anxiety_type_start');
     }
 
     renderQuestion() {
@@ -322,29 +215,20 @@ class AnxietyTypeApp {
             const btn = document.createElement('button');
             btn.className = 'option-btn';
             btn.innerHTML = '<span class="option-label">' + labels[idx] + '</span><span class="option-text">' + t(optKey) + '</span>';
-            btn.addEventListener('click', () => this.selectOption(q.id, idx, btn));
+            btn.addEventListener('click', () => this.selectOption(q.id, idx, btn), { once:true });
             container.appendChild(btn);
         });
     }
 
     selectOption(questionId, optionIdx, btn) {
-        // Visual feedback
+        if (btn.disabled) return;
         document.querySelectorAll('.option-btn').forEach(b => b.classList.remove('selected'));
+        document.querySelectorAll('.option-btn').forEach(b => { b.disabled = true; });
         btn.classList.add('selected');
 
-        // Record answer
-        const scoreKey = questionId + String.fromCharCode(97 + optionIdx);
-        const scoreData = SCORE_MAP[scoreKey];
-        if (scoreData) {
-            for (let i = 0; i < 6; i++) {
-                this.typeScores[i] += scoreData.type[i];
-            }
-            for (let i = 0; i < 5; i++) {
-                this.dimScores[i] += scoreData.dim[i];
-            }
-        }
-
+        this.typeScores[optionIdx] += 1;
         this.answers.push({ question: questionId, option: optionIdx });
+        if (this.answers.length === 4) this.trackStage('anxiety_type_progress');
 
         // Next question after brief delay
         setTimeout(() => {
@@ -365,25 +249,10 @@ class AnxietyTypeApp {
         const detail = document.getElementById('analyzing-detail');
         const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
 
-        const steps = [
-            { pct: 25, key: 'analyzing.scanning' },
-            { pct: 50, key: 'analyzing.matching' },
-            { pct: 75, key: 'analyzing.comparing' },
-            { pct: 100, key: 'analyzing.complete' }
-        ];
-
-        let step = 0;
-        const interval = setInterval(() => {
-            if (step >= steps.length) {
-                clearInterval(interval);
-                setTimeout(() => this.showResult(), 400);
-                return;
-            }
-            if (fill) fill.style.width = steps[step].pct + '%';
-            if (percent) percent.textContent = steps[step].pct + '%';
-            if (detail) detail.textContent = t(steps[step].key);
-            step++;
-        }, 500);
+        if (fill) fill.style.width = '100%';
+        if (percent) percent.textContent = '100%';
+        if (detail) detail.textContent = t('analyzing.scanning');
+        setTimeout(() => this.showResult(), 350);
     }
 
     calculateResult() {
@@ -398,119 +267,12 @@ class AnxietyTypeApp {
         return ANXIETY_TYPES[TYPE_ORDER[maxIdx]];
     }
 
-    getNormalizedDimensions() {
-        // Normalize dimension scores to 0-100 range
-        const maxPossible = 24; // max score per dimension (8 questions * 3)
-        return this.dimScores.map(s => Math.min(100, Math.round((s / maxPossible) * 100)));
-    }
-
-    drawRadarChart() {
-        const canvas = document.getElementById('radar-canvas');
-        if (!canvas) return;
-        const ctx = canvas.getContext('2d');
-        const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
-
-        const w = canvas.width;
-        const h = canvas.height;
-        const cx = w / 2;
-        const cy = h / 2;
-        const radius = Math.min(cx, cy) - 40;
-        const dims = this.getNormalizedDimensions();
-        const labels = DIMENSION_KEYS.map(k => t('metric.' + k));
-        const n = 5;
-        const angleStep = (2 * Math.PI) / n;
-        const startAngle = -Math.PI / 2;
-
-        ctx.clearRect(0, 0, w, h);
-
-        // Check if light mode
-        const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-        const gridColor = isLight ? 'rgba(0,0,0,0.08)' : 'rgba(255,255,255,0.08)';
-        const labelColor = isLight ? '#666680' : '#8a8aaa';
-
-        // Draw grid circles (pentagon)
-        for (let level = 1; level <= 4; level++) {
-            const r = (radius / 4) * level;
-            ctx.beginPath();
-            for (let i = 0; i <= n; i++) {
-                const angle = startAngle + angleStep * i;
-                const x = cx + r * Math.cos(angle);
-                const y = cy + r * Math.sin(angle);
-                if (i === 0) ctx.moveTo(x, y);
-                else ctx.lineTo(x, y);
-            }
-            ctx.closePath();
-            ctx.strokeStyle = gridColor;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-        }
-
-        // Draw axis lines
-        for (let i = 0; i < n; i++) {
-            const angle = startAngle + angleStep * i;
-            ctx.beginPath();
-            ctx.moveTo(cx, cy);
-            ctx.lineTo(cx + radius * Math.cos(angle), cy + radius * Math.sin(angle));
-            ctx.strokeStyle = gridColor;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-        }
-
-        // Draw data polygon
-        ctx.beginPath();
-        for (let i = 0; i < n; i++) {
-            const angle = startAngle + angleStep * i;
-            const r = (dims[i] / 100) * radius;
-            const x = cx + r * Math.cos(angle);
-            const y = cy + r * Math.sin(angle);
-            if (i === 0) ctx.moveTo(x, y);
-            else ctx.lineTo(x, y);
-        }
-        ctx.closePath();
-        ctx.fillStyle = 'rgba(16,185,129,0.2)';
-        ctx.fill();
-        ctx.strokeStyle = '#10b981';
-        ctx.lineWidth = 2;
-        ctx.stroke();
-
-        // Draw data points
-        for (let i = 0; i < n; i++) {
-            const angle = startAngle + angleStep * i;
-            const r = (dims[i] / 100) * radius;
-            const x = cx + r * Math.cos(angle);
-            const y = cy + r * Math.sin(angle);
-            ctx.beginPath();
-            ctx.arc(x, y, 4, 0, 2 * Math.PI);
-            ctx.fillStyle = '#10b981';
-            ctx.fill();
-            ctx.strokeStyle = '#fff';
-            ctx.lineWidth = 1.5;
-            ctx.stroke();
-        }
-
-        // Draw labels
-        ctx.font = '12px -apple-system, BlinkMacSystemFont, sans-serif';
-        ctx.fillStyle = labelColor;
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        for (let i = 0; i < n; i++) {
-            const angle = startAngle + angleStep * i;
-            const labelR = radius + 24;
-            const x = cx + labelR * Math.cos(angle);
-            const y = cy + labelR * Math.sin(angle);
-            ctx.fillText(labels[i], x, y);
-        }
-    }
-
     showResult() {
         this.resultType = this.calculateResult();
         const type = this.resultType;
         const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
 
         this.showScreen('result-screen');
-        this.trackEvent('anxiety_type_result_view');
-        this.trackEvent('result_view', { event_category: 'anxiety_type', event_label: type.id, value: 1 });
-        this.loadResultAd();
 
         // Emoji
         const emoji = document.getElementById('result-emoji');
@@ -524,55 +286,8 @@ class AnxietyTypeApp {
         const tagline = document.getElementById('result-tagline');
         if (tagline) tagline.textContent = '"' + t(type.taglineKey) + '"';
 
-        // Description
-        const desc = document.getElementById('result-description');
-        if (desc) desc.textContent = t(type.descKey);
-
-        // Draw radar chart
-        this.drawRadarChart();
-
-        // Metrics
-        const dims = this.getNormalizedDimensions();
-        const metricsGrid = document.getElementById('metrics-grid');
-        if (metricsGrid) {
-            metricsGrid.innerHTML = '';
-            DIMENSION_KEYS.forEach((key, idx) => {
-                const row = document.createElement('div');
-                row.className = 'metric-row';
-                row.innerHTML = '<span class="metric-label">' + t('metric.' + key) + '</span>' +
-                    '<div class="metric-bar-bg"><div class="metric-bar-fill" style="background:' + type.color + '"></div></div>' +
-                    '<span class="metric-value">' + dims[idx] + '</span>';
-                metricsGrid.appendChild(row);
-                // Animate bar
-                setTimeout(() => {
-                    row.querySelector('.metric-bar-fill').style.width = dims[idx] + '%';
-                }, 100);
-            });
-        }
-
-        // Percentile
-        const percentile = document.getElementById('percentile-stat');
-        const pctVal = Math.floor(Math.random() * 20) + 15;
-        if (percentile) {
-            percentile.innerHTML = t('result.percentile').replace('{pct}', '<strong>' + pctVal + '%</strong>').replace('{type}', t(type.nameKey));
-        }
-
-        // Traits
-        const traitsList = document.getElementById('traits-list');
-        if (traitsList) {
-            traitsList.innerHTML = '';
-            type.traitsKeys.forEach(key => {
-                const tag = document.createElement('span');
-                tag.className = 'trait-tag';
-                tag.textContent = t(key);
-                traitsList.appendChild(tag);
-            });
-        }
-
-        // Confetti
         this.spawnConfetti();
-
-        this.trackEvent('quiz_complete', { event_category: 'anxiety_type', event_label: type.id, value: 1 });
+        this.trackStage('anxiety_type_complete');
     }
 
     spawnConfetti() {
@@ -596,82 +311,32 @@ class AnxietyTypeApp {
         window.scrollTo(0, 0);
     }
 
-    downloadResultCard() {
-        if (!this.resultType || typeof ResultCard === 'undefined') return;
-        this.trackEvent('anxiety_type_save_click');
-        const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
-        const dims = this.getNormalizedDimensions();
-        const dimensionLabels = ['Cognitive', 'Physical', 'Social', 'Anticipatory', 'Control'];
-        const dimensions = dimensionLabels.map((label, idx) => ({
-            label: label,
-            pct: dims[idx],
-            color: this.resultType.color
-        }));
-        ResultCard.download({
-            appName: 'Anxiety Type Test',
-            typeName: t(this.resultType.nameKey),
-            typeEmoji: this.resultType.emoji,
-            dimensions: dimensions,
-            primaryColor: '#10b981',
-            tagline: 'dopabrain.com/anxiety-type'
-        });
-    }
-
-    // Share functions
-    getShareText() {
-        if (!this.resultType) return '';
-        const t = window.i18n ? window.i18n.t.bind(window.i18n) : (k) => k;
-        return t('share.text').replace('{type}', t(this.resultType.nameKey));
-    }
-
-    getShareUrl() {
-        return 'https://dopabrain.com/anxiety-type/';
-    }
-
-    shareKakao() {
-        const text = this.getShareText();
-        this.trackEvent('anxiety_type_share_click', { share_channel: 'kakao' });
-        const url = 'https://sharer.kakao.com/talk/friends/picker/link?url=' + encodeURIComponent(this.getShareUrl()) + '&text=' + encodeURIComponent(text);
-        window.open(url, '_blank', 'width=600,height=400');
-    }
-
-    shareTwitter() {
-        const text = this.getShareText();
-        this.trackEvent('anxiety_type_share_click', { share_channel: 'twitter' });
-        const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(this.getShareUrl());
-        window.open(url, '_blank', 'width=600,height=400');
-    }
-
-    shareFacebook() {
-        this.trackEvent('anxiety_type_share_click', { share_channel: 'facebook' });
-        const url = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(this.getShareUrl());
-        window.open(url, '_blank', 'width=600,height=400');
-    }
-
-    async shareCopy() {
-        const text = this.getShareText() + ' ' + this.getShareUrl();
-        this.trackEvent('anxiety_type_copy_link');
+    async sharePage() {
+        const t = window.i18n ? window.i18n.t.bind(window.i18n) : (key) => key;
+        const shareData = {
+            title: t('meta.og_title'),
+            text: t('share.text'),
+            url: 'https://dopabrain.com/anxiety-type/'
+        };
         try {
-            await navigator.clipboard.writeText(text);
-            const btn = document.getElementById('share-copy');
-            if (btn) {
-                const original = btn.textContent;
-                btn.textContent = '\u{2705} Copied!';
-                setTimeout(() => btn.textContent = original, 2000);
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                await navigator.clipboard.writeText(shareData.text + ' ' + shareData.url);
+            }
+            this.trackStage('anxiety_type_share');
+            const button = document.getElementById('share-page');
+            if (button) {
+                const original = button.textContent;
+                button.textContent = t('share.success');
+                setTimeout(() => { button.textContent = original; }, 2000);
             }
         } catch (e) {
-            // Fallback
-            const ta = document.createElement('textarea');
-            ta.value = text;
-            document.body.appendChild(ta);
-            ta.select();
-            document.execCommand('copy');
-            document.body.removeChild(ta);
+            if (e?.name !== 'AbortError') console.error('Share failed');
         }
     }
 }
 
-// Initialize when DOM ready
 document.addEventListener('DOMContentLoaded', () => {
-    new AnxietyTypeApp();
+    window.anxietyTypeApp = new AnxietyTypeApp();
 });
