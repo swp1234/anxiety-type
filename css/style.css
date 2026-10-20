@@ -123,6 +123,10 @@ body {
     top: -100%;
     left: 16px;
     z-index: 10001;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
     padding: 8px 16px;
     background: var(--primary-color);
     color: #fff;
@@ -794,6 +798,11 @@ body {
 .back-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    min-width: 44px;
+    box-sizing: border-box;
+    padding: 10px 16px;
     gap: 6px;
     color: var(--text-secondary);
     text-decoration: none;
